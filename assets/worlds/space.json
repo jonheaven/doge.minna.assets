@@ -1,0 +1,60 @@
+{
+  "world": "space",
+  "spawnPoint": {
+    "x": 10,
+    "y": 0,
+    "z": 0
+  },
+  "music": {
+    "track": "/assets/music/soundtrack.mp3",
+    "volume": 0.35
+  },
+  "sfx": [
+    "/assets/sfx/wind-blowing.mp3",
+    "/assets/sfx/teleport.mp3"
+  ],
+  "items": [],
+  "moonReturnPortal": {
+    "promptRadius": 14,
+    "triggerRadius": 9
+  },
+  "starsEnabled": true,
+  "planets": [
+    {
+      "id": "earth",
+      "label": "Earth",
+      "modelPath": "/assets/models/env/planets/earth.glb",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 0.1,
+      "enabled": true
+    },
+    {
+      "id": "moon",
+      "label": "Moon",
+      "modelPath": "/assets/models/env/planets/moon.glb",
+      "position": {
+        "x": 420,
+        "y": 30,
+        "z": -60
+      },
+      "scale": 0.1,
+      "enabled": true
+    },
+    {
+      "id": "mars",
+      "label": "Mars",
+      "modelPath": "/assets/models/env/planets/mars.glb",
+      "position": {
+        "x": -900,
+        "y": 120,
+        "z": 450
+      },
+      "scale": 0.1,
+      "enabled": true
+    }
+  ]
+}

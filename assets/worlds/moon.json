@@ -1,0 +1,180 @@
+{
+  "world": "moon",
+  "spawnPoint": {
+    "x": 0,
+    "y": 1,
+    "z": 0
+  },
+  "backgroundColor": "#000000",
+  "music": {
+    "track": "/assets/music/soundtrack.mp3",
+    "volume": 0.3
+  },
+  "items": [],
+  "sfx": [
+    "/assets/sfx/teleport.mp3",
+    "/assets/sfx/ground-impact.mp3"
+  ],
+  "fog": {
+    "color": "#101010",
+    "near": 100,
+    "far": 300
+  },
+  "ambientLight": {
+    "intensity": 0.2,
+    "color": "#ffffff"
+  },
+  "directionalLight": {
+    "position": [
+      100,
+      50,
+      50
+    ],
+    "intensity": 1.5,
+    "color": "#ffffff"
+  },
+  "terrain": {
+    "size": 500,
+    "segments": 100,
+    "color": "#808080",
+    "roughness": 1,
+    "metalness": 0,
+    "displacementScale": 3
+  },
+  "objects": [
+    {
+      "id": "crater_1",
+      "type": "procedural",
+      "component": "Crater",
+      "position": [
+        -20,
+        0.1,
+        -15
+      ],
+      "props": {
+        "radius": 8,
+        "depth": 2
+      }
+    },
+    {
+      "id": "crater_2",
+      "type": "procedural",
+      "component": "Crater",
+      "position": [
+        15,
+        0.1,
+        10
+      ],
+      "props": {
+        "radius": 12,
+        "depth": 3
+      }
+    },
+    {
+      "id": "crater_3",
+      "type": "procedural",
+      "component": "Crater",
+      "position": [
+        -35,
+        0.1,
+        25
+      ],
+      "props": {
+        "radius": 6,
+        "depth": 1.5
+      }
+    },
+    {
+      "id": "crater_4",
+      "type": "procedural",
+      "component": "Crater",
+      "position": [
+        30,
+        0.1,
+        -20
+      ],
+      "props": {
+        "radius": 10,
+        "depth": 2.5
+      }
+    },
+    {
+      "id": "crater_5",
+      "type": "procedural",
+      "component": "Crater",
+      "position": [
+        5,
+        0.1,
+        -30
+      ],
+      "props": {
+        "radius": 7,
+        "depth": 2
+      }
+    },
+    {
+      "id": "moon_base",
+      "type": "procedural",
+      "component": "MoonBase",
+      "position": [
+        40,
+        0,
+        30
+      ],
+      "props": {}
+    },
+    {
+      "id": "rock_1",
+      "type": "procedural",
+      "component": "Rock",
+      "position": [
+        -10,
+        0,
+        5
+      ],
+      "scale": 1.2,
+      "props": {}
+    },
+    {
+      "id": "rock_2",
+      "type": "procedural",
+      "component": "Rock",
+      "position": [
+        12,
+        0,
+        -8
+      ],
+      "scale": 0.8,
+      "props": {}
+    },
+    {
+      "id": "rock_3",
+      "type": "procedural",
+      "component": "Rock",
+      "position": [
+        -25,
+        0,
+        -20
+      ],
+      "scale": 1.5,
+      "props": {}
+    },
+    {
+      "id": "rock_4",
+      "type": "procedural",
+      "component": "Rock",
+      "position": [
+        8,
+        0,
+        15
+      ],
+      "scale": 1,
+      "props": {}
+    }
+  ],
+  "stars": {
+    "radius": 400,
+    "segments": 32,
+    "color": "#000000"
+  }
+}
