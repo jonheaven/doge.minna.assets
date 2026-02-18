@@ -1,2 +1,5 @@
 # Ignore unused assets and experimental files
 unused/
+
+# Ignore zip files (texture packs, asset bundles, etc.)
+*.zip
