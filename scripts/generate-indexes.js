@@ -1,7 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const ASSETS_DIR = 'assets';
+const ROOT_DIR = '.';
+const EXCLUDED_DIRS = new Set(['.git', 'node_modules', 'scripts']);
 
 function generateIndexForDirectory(dirPath, relativeUrl) {
   const files = fs.readdirSync(dirPath, { withFileTypes: true });
@@ -126,19 +127,26 @@ function walkDirectory(dirPath, baseUrl = '') {
   });
 }
 
-// Start walking from assets directory
-if (fs.existsSync(ASSETS_DIR)) {
+// Start walking from root directory for top-level folders
+if (fs.existsSync(ROOT_DIR)) {
   console.log('Generating directory indexes...');
-  
-  // Generate index for the assets directory itself
-  const assetsIndexContent = generateIndexForDirectory(ASSETS_DIR, '/assets');
-  const assetsIndexPath = path.join(ASSETS_DIR, 'index.html');
-  fs.writeFileSync(assetsIndexPath, assetsIndexContent);
-  console.log(`✓ Generated index for /assets/`);
-  
-  // Then walk subdirectories
-  walkDirectory(ASSETS_DIR, 'assets');
+
+  const entries = fs.readdirSync(ROOT_DIR, { withFileTypes: true });
+  entries.forEach((entry) => {
+    if (!entry.isDirectory() || EXCLUDED_DIRS.has(entry.name)) return;
+    if (entry.name.startsWith('.')) return;
+
+    const fullPath = path.join(ROOT_DIR, entry.name);
+    const relativeUrl = `/${entry.name}`;
+    const indexPath = path.join(fullPath, 'index.html');
+    const indexContent = generateIndexForDirectory(fullPath, relativeUrl);
+    fs.writeFileSync(indexPath, indexContent);
+    console.log(`✓ Generated index for ${relativeUrl}/`);
+
+    walkDirectory(fullPath, entry.name);
+  });
+
   console.log('✓ Directory indexes generated successfully');
 } else {
-  console.log(`Assets directory not found at ${ASSETS_DIR}`);
+  console.log(`Root directory not found at ${ROOT_DIR}`);
 }
