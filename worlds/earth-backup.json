@@ -7,17 +7,17 @@
   },
   "backgroundColor": "#000000",
   "music": {
-    "track": "/assets/music/soundtrack.mp3",
+    "track": "/music/soundtrack.mp3",
     "volume": 0.4
   },
   "sfx": [
-    "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/sfx/teleport.mp3",
-    "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/sfx/interact.mp3",
-    "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/sfx/spray-paint.mp3",
-    "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/sfx/electricity.mp3",
-    "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/sfx/shoot.mp3",
-    "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/sfx/shot-impact.mp3",
-    "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/sfx/ground-impact.mp3"
+    "/sfx/teleport.mp3",
+    "/sfx/interact.mp3",
+    "/sfx/spray-paint.mp3",
+    "/sfx/electricity.mp3",
+    "/sfx/shoot.mp3",
+    "/sfx/shot-impact.mp3",
+    "/sfx/ground-impact.mp3"
   ],
   "galleryBounds": {
     "center": {
@@ -31,7 +31,7 @@
   "structures": [
     {
       "id": "warehouse",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/structures/warehouse.glb",
+      "modelPath": "/models/structures/warehouse.glb",
       "position": {
         "x": 0,
         "y": 0,
@@ -49,7 +49,7 @@
     },
     {
       "id": "floating_base",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/structures/base.glb",
+      "modelPath": "/models/structures/base.glb",
       "position": {
         "x": 0,
         "y": 50,
@@ -66,7 +66,7 @@
     },
     {
       "id": "brutalist_building",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/structures/brutalist_building.glb",
+      "modelPath": "/models/structures/brutalist_building.glb",
       "position": {
         "x": -120,
         "y": 0,
@@ -84,7 +84,7 @@
     },
     {
       "id": "brutalist_building_2",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/structures/brutalist_building2.glb",
+      "modelPath": "/models/structures/brutalist_building2.glb",
       "position": {
         "x": 120,
         "y": 0,
@@ -102,7 +102,7 @@
     },
     {
       "id": "brutalist_building_3",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/structures/brutalist_building3.glb",
+      "modelPath": "/models/structures/brutalist_building3.glb",
       "position": {
         "x": 48,
         "y": 0,
@@ -120,7 +120,7 @@
     },
     {
       "id": "brutalist_building_4",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/structures/brutalist_building4.glb",
+      "modelPath": "/models/structures/brutalist_building4.glb",
       "position": {
         "x": -90,
         "y": 0,
@@ -141,7 +141,7 @@
       "label": "Moon",
       "type": "portal",
       "enabled": true,
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/planets/moon.glb",
+      "modelPath": "/models/env/planets/moon.glb",
       "positionOffset": {
         "x": 0,
         "y": 48,
@@ -156,7 +156,7 @@
       "label": "Koenigsegg",
       "type": "vehicle",
       "enabled": true,
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/koenigsegg.glb",
+      "modelPath": "/models/env/koenigsegg.glb",
       "positionOffset": {
         "x": 15,
         "y": 12,
@@ -169,7 +169,7 @@
       "label": "Tesla Coil",
       "type": "pickup",
       "enabled": true,
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/tesla_coil.glb",
+      "modelPath": "/models/env/tesla_coil.glb",
       "position": [
         2.4,
         0,
@@ -181,7 +181,7 @@
       "id": "arcade_dogebox_1",
       "label": "DogeBox Arcade",
       "type": "arcade",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/arcade_machine.glb",
+      "modelPath": "/models/env/arcade_machine.glb",
       "position": {
         "x": 0,
         "y": 1,
@@ -199,7 +199,7 @@
     },
     {
       "id": "dog_house_1",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/structures/dog_house2.glb",
+      "modelPath": "/models/structures/dog_house2.glb",
       "position": {
         "x": -114,
         "y": 0,
@@ -218,7 +218,7 @@
     },
     {
       "id": "dog_house_2",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/structures/dog_house.glb",
+      "modelPath": "/models/structures/dog_house.glb",
       "position": {
         "x": 126,
         "y": 0,
@@ -237,7 +237,7 @@
     },
     {
       "id": "dog_house_3",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/structures/dog_house2.glb",
+      "modelPath": "/models/structures/dog_house2.glb",
       "position": {
         "x": 54,
         "y": 0,
@@ -256,7 +256,7 @@
     },
     {
       "id": "dog_house_4",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/structures/dog_house.glb",
+      "modelPath": "/models/structures/dog_house.glb",
       "position": {
         "x": -84,
         "y": 0,
@@ -277,7 +277,7 @@
   "decorations": [
     {
       "id": "tree_building_1",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/trees/sakura_tree.glb",
+      "modelPath": "/models/env/trees/sakura_tree.glb",
       "position": {
         "x": -123,
         "y": 0,
@@ -290,7 +290,7 @@
     },
     {
       "id": "campfire_building_1",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/campfire.glb",
+      "modelPath": "/models/env/campfire.glb",
       "position": {
         "x": -117,
         "y": 0,
@@ -305,7 +305,7 @@
     },
     {
       "id": "tree_building_2",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/trees/old_tree.glb",
+      "modelPath": "/models/env/trees/old_tree.glb",
       "position": {
         "x": 117,
         "y": 0,
@@ -317,7 +317,7 @@
     },
     {
       "id": "campfire_building_2",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/campfire.glb",
+      "modelPath": "/models/env/campfire.glb",
       "position": {
         "x": 123,
         "y": 0,
@@ -332,7 +332,7 @@
     },
     {
       "id": "tree_building_3",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/trees/bonsai_tree.glb",
+      "modelPath": "/models/env/trees/bonsai_tree.glb",
       "position": {
         "x": 51,
         "y": 0.9,
@@ -344,7 +344,7 @@
     },
     {
       "id": "campfire_building_3",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/campfire.glb",
+      "modelPath": "/models/env/campfire.glb",
       "position": {
         "x": 45,
         "y": 0,
@@ -359,7 +359,7 @@
     },
     {
       "id": "tree_building_4",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/trees/ancient_tree.glb",
+      "modelPath": "/models/env/trees/ancient_tree.glb",
       "position": {
         "x": -87,
         "y": 0,
@@ -371,7 +371,7 @@
     },
     {
       "id": "campfire_building_4",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/campfire.glb",
+      "modelPath": "/models/env/campfire.glb",
       "position": {
         "x": -93,
         "y": 0,
@@ -386,7 +386,7 @@
     },
     {
       "id": "billboard_1",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/billboard.glb",
+      "modelPath": "/models/env/billboard.glb",
       "position": {
         "x": -96,
         "y": 0,
@@ -404,7 +404,7 @@
     },
     {
       "id": "billboard_2",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/billboard.glb",
+      "modelPath": "/models/env/billboard.glb",
       "position": {
         "x": 18.6,
         "y": 0,
@@ -422,7 +422,7 @@
     },
     {
       "id": "billboard_3",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/billboard.glb",
+      "modelPath": "/models/env/billboard.glb",
       "position": {
         "x": -2.4,
         "y": 0,
@@ -440,7 +440,7 @@
     },
     {
       "id": "billboard_4",
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/billboard.glb",
+      "modelPath": "/models/env/billboard.glb",
       "position": {
         "x": -23.4,
         "y": 0,
@@ -470,7 +470,7 @@
     "models": [
       {
         "id": "bonsai_tree",
-        "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/trees/bonsai_tree.glb",
+        "path": "/models/env/trees/bonsai_tree.glb",
         "scale": 0.04,
         "positionOffset": {
           "x": 0,
@@ -480,17 +480,17 @@
       },
       {
         "id": "old_tree",
-        "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/trees/old_tree.glb",
+        "path": "/models/env/trees/old_tree.glb",
         "scale": 0.9
       },
       {
         "id": "ancient_tree",
-        "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/trees/ancient_tree.glb",
+        "path": "/models/env/trees/ancient_tree.glb",
         "scale": 0.02
       },
       {
         "id": "sakura_tree",
-        "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/trees/sakura_tree.glb",
+        "path": "/models/env/trees/sakura_tree.glb",
         "scale": 0.01,
         "hoverable": false,
         "enabled": false
@@ -553,7 +553,7 @@
       "itemType": "broom",
       "itemId": "items/brooms/nimbus_2000",
       "label": "Nimbus 2000",
-      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/items/brooms/nimbus_2000.glb",
+      "path": "/models/items/brooms/nimbus_2000.glb",
       "scale": 0.005,
       "position": {
         "x": 1.2,
@@ -583,7 +583,7 @@
       "itemType": "broom",
       "itemId": "items/brooms/nimbus_2002",
       "label": "Nimbus 2002",
-      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/items/brooms/nimbus_2002.glb",
+      "path": "/models/items/brooms/nimbus_2002.glb",
       "scale": 0.4,
       "position": {
         "x": 1.2,
@@ -613,7 +613,7 @@
       "itemType": "broom",
       "itemId": "items/brooms/stylized_broomstick",
       "label": "Stylized Broomstick",
-      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/items/brooms/stylized_broomstick.glb",
+      "path": "/models/items/brooms/stylized_broomstick.glb",
       "scale": 0.5,
       "position": {
         "x": 1.2,
@@ -643,7 +643,7 @@
       "itemType": "broom",
       "itemId": "items/brooms/wizards_broom",
       "label": "Wizard's Broom",
-      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/items/brooms/wizards_broom.glb",
+      "path": "/models/items/brooms/wizards_broom.glb",
       "scale": 0.75,
       "position": {
         "x": 1.2,
