@@ -3,7 +3,7 @@
     "animations": ["Animation"],
     "emotes": []
   },
-  "public/models/players/earth-zombie.glb": {
+  "public/models/players/mrna-zombie.glb": {
     "animations": ["walk", "idle", "attack", "hit", "Death"],
     "emotes": []
   },

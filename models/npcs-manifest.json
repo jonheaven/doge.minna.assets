@@ -11,7 +11,7 @@
     {
       "id": "zombie",
       "name": "Zombie",
-      "path": "/assets/models/players/earth-zombie.glb",
+      "path": "/assets/models/players/mrna-zombie.glb",
       "scale": 0.0125,
       "punchDistance": 0,
       "punchCooldown": 0

@@ -102,6 +102,36 @@
       "scale": 0.3,
       "flipY": true,
       "damage": 50
+    },
+    "lightning": {
+      "path": null,
+      "scale": 0.35,
+      "flipY": false,
+      "damage": 60,
+      "procedural": true
+    },
+    "ice": {
+      "path": null,
+      "scale": 0.35,
+      "flipY": false,
+      "damage": 15,
+      "procedural": true,
+      "effect": {
+        "type": "freeze",
+        "durationMs": 4000
+      }
+    },
+    "potion": {
+      "path": null,
+      "scale": 0.3,
+      "flipY": false,
+      "damage": 0,
+      "procedural": true,
+      "effect": {
+        "type": "shrink",
+        "durationMs": 8000,
+        "scaleMultiplier": 0.2
+      }
     }
   },
   "teslaCoils": [

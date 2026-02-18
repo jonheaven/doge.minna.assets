@@ -13,14 +13,14 @@
       }
     },
     {
-      "id": "earth-zombie",
-      "name": "Zombie",
+      "id": "mrna-zombie",
+      "name": "mRNA Zombie",
       "description": "Undead creature from the depths",
-      "filename": "earth-zombie.glb",
-      "path": "/models/players/earth-zombie.glb",
+      "filename": "mrna-zombie.glb",
+      "path": "/models/players/mrna-zombie.glb",
       "preview": {
-        "position": [2.0, 1.2, 2.0],
-        "target": [0, 0.8, 0],
+        "position": [0.06, -0.11, 0.11],
+        "target": [-0.06, -0.07, -0.12],
         "fov": 50,
         "targetSize": 0.25
       }
@@ -32,8 +32,8 @@
       "filename": "peepo.glb",
       "path": "/models/players/peepo.glb",
       "preview": {
-        "position": [0.08, 0.03, 0.21],
-        "target": [-0.05, 0.00, -0.11],
+        "position": [0.12, 0.04, 0.28],
+        "target": [-0.04, 0.00, -0.11],
         "fov": 50
       }
     },

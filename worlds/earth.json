@@ -242,6 +242,31 @@
       "enabled": true
     }
   ],
+  "zombieScatter": {
+    "enabled": true,
+    "positions": [
+      {
+        "x": -123,
+        "y": 0,
+        "z": -93
+      },
+      {
+        "x": 123,
+        "y": 0,
+        "z": 45
+      },
+      {
+        "x": 45,
+        "y": 0,
+        "z": -123
+      },
+      {
+        "x": -93,
+        "y": 0,
+        "z": 87
+      }
+    ]
+  },
   "npcs": {
     "wojak": {
       "enabled": true,
