@@ -1,5 +1,6 @@
 {
   "version": 2,
   "public": true,
-  "buildCommand": "node scripts/generate-indexes.js"
+  "buildCommand": "node scripts/generate-indexes.js",
+  "outputDirectory": "."
 }
