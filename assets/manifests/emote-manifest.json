@@ -1,0 +1,179 @@
+{
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/doge.glb": {
+    "animations": ["Animation"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/earth-zombie.glb": {
+    "animations": ["walk", "idle", "attack", "hit", "Death"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/mars-zombie.glb": {
+    "animations": ["Idle", "Walk", "Armature|Death"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/shiba_inu-mr.glb": {
+    "animations": ["Dog|Idle", "Dog|Jump", "Dog|Run", "Dog|SitDown", "Dog|Walk"],
+    "emotes": ["Sit"]
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/shiba_inu.glb": {
+    "animations": ["Dog|Idle", "Dog|Jump", "Dog|Run", "Dog|SitDown", "Dog|Walk"],
+    "emotes": ["Sit"]
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-idle-mr.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-idle.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-jump-mr.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-jump.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-left_strafe-mr.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-left_strafe.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-right_strafe-mr.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-right_strafe.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-running-mr.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-running.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-running_backward-mr.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-running_backward.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-throw.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wolf-mr.glb": {
+    "animations": ["01_Run", "02_walk", "03_creep", "04_Idle", "05_site"],
+    "emotes": ["Sit"]
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wolf.glb": {
+    "animations": ["01_Run", "02_walk", "03_creep", "04_Idle", "05_site"],
+    "emotes": ["Sit"]
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/zombie_dog.glb": {
+    "animations": ["GltfAnimation 0"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/alien-probe.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/ancient_tree.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/asteroid_with_minerals.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/bonsai_tree.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/campfire.glb": {
+    "animations": ["Animation"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/dog_house.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/dog_house2.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/earth.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/fire.glb": {
+    "animations": ["Take 001"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/japanese_cherry_tree_low-poly.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/koenigsegg.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/mars.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/meteorite.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/moon.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/old_tree.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/ore_asteroids.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/space-drone.glb": {
+    "animations": ["Armature|Attack ", "Armature|DodgeLeft", "Armature|DodgeRight", "Armature|Fire", "Armature|idle"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/tesla_coil.glb": {
+    "animations": ["Scene"],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/items/brooms/nimbus_2000.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/items/brooms/nimbus_2002.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/items/brooms/stylized_broomstick.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/items/brooms/wizards_broom.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/items/wizard_hat.glb": {
+    "animations": [],
+    "emotes": []
+  }
+}
+
