@@ -1,15 +1,15 @@
 {
   "world": "earth",
   "spawnPoint": {
-    "x": 6,
-    "y": 0.1,
-    "z": 3
+    "x": 0,
+    "y": 0,
+    "z": 0
   },
-  "spawnRadius": 2,
+  "spawnRadius": 4,
   "backgroundColor": "#000000",
   "music": {
     "track": "/music/soundtrack.mp3",
-    "volume": 0.1
+    "volume": 1
   },
   "sfx": [
     "/sfx/teleport.mp3",
@@ -18,8 +18,7 @@
     "/sfx/electricity.mp3",
     "/sfx/shoot.mp3",
     "/sfx/shot-impact.mp3",
-    "/sfx/ground-impact.mp3",
-    "/models/env/koenigsegg.glb"
+    "/sfx/ground-impact.mp3"
   ],
   "structures": [
     {
@@ -35,7 +34,7 @@
         "y": 0,
         "z": 0
       },
-      "scale": 5,
+      "scale": 8,
       "label": "Floating Base",
       "enabled": true,
       "collidable": true
@@ -53,7 +52,7 @@
         "y": 0,
         "z": 0
       },
-      "scale": 0.1,
+      "scale": 0.2,
       "label": "Boxing Ring",
       "enabled": true,
       "collidable": true
@@ -63,7 +62,7 @@
       "label": "Moon",
       "type": "portal",
       "enabled": true,
-      "modelPath": "/models/env/planets/moon.glb",
+      "modelPath": "/models/env/planets/moon-mr.glb",
       "positionOffset": {
         "x": 0,
         "y": 0,
@@ -75,7 +74,7 @@
       "portalDestination": {
         "world": "space",
         "spawnPoint": {
-          "x": 10,
+          "x": 0,
           "y": 0,
           "z": 0
         }
@@ -92,7 +91,7 @@
       "modelPath": "/models/env/koenigsegg.glb",
       "position": [
         1,
-        0,
+        0.05,
         20
       ],
       "scale": 1,
@@ -132,7 +131,7 @@
       "modelPath": "/models/env/campfire.glb",
       "position": {
         "x": 0,
-        "y": 0,
+        "y": 0.01,
         "z": 0
       },
       "scale": 0.25,
@@ -169,8 +168,8 @@
       "path": "/models/items/brooms/stylized_broomstick.glb",
       "scale": 0.5,
       "position": {
-        "x": 0,
-        "y": 0.1,
+        "x": 4,
+        "y": 0.15,
         "z": 4
       },
       "pickupRotation": [
@@ -184,11 +183,11 @@
         0.1
       ],
       "rideRotation": [
-        1.57,
-        1.57,
-        1.57
+        0,
+        3.14159265,
+        0
       ],
-      "rideScale": 0.5,
+      "rideScale": 1,
       "enabled": true
     },
     {
@@ -244,26 +243,28 @@
   ],
   "zombieScatter": {
     "enabled": true,
+    "modelPath": "/models/players/mrna-zombie.glb",
+    "scale": 0.00015,
     "positions": [
       {
-        "x": -12,
+        "x": -74,
         "y": 0,
-        "z": -8
+        "z": -55
       },
       {
-        "x": 12,
+        "x": 62,
         "y": 0,
-        "z": 10
+        "z": 57
       },
       {
-        "x": 10,
+        "x": 54,
         "y": 0,
-        "z": -12
+        "z": -71
       },
       {
-        "x": -10,
+        "x": -66,
         "y": 0,
-        "z": 8
+        "z": 49
       }
     ]
   },

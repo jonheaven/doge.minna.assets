@@ -6,6 +6,10 @@
     "z": 0
   },
   "backgroundColor": "#CD5C5C",
+  "music": {
+    "track": "/music/racing.mp3",
+    "volume": 0.4
+  },
   "items": [],
   "sfx": [
     "/sfx/teleport.mp3",
