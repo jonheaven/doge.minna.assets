@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "Static asset hosting for Doge Minna",
   "scripts": {
-    "build": "node scripts/generate-indexes.js"
+    "build": "node scripts/generate-indexes.js && node scripts/generate-root-index.js"
   }
 }
