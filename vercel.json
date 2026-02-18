@@ -2,5 +2,16 @@
   "version": 2,
   "public": true,
   "buildCommand": "node scripts/generate-indexes.js",
-  "outputDirectory": "."
+  "outputDirectory": ".",
+  "headers": [
+    {
+      "source": "/(.*)\\.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ]
 }
