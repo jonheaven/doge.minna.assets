@@ -2,31 +2,69 @@
   "players": [
     {
       "id": "doge",
+      "name": "Doge",
+      "description": "The legendary Shiba that started it all",
       "filename": "doge.glb",
-      "path": "/models/players/doge.glb"
+      "path": "/models/players/doge.glb",
+      "preview": {
+        "position": [1.5, 1.0, 1.5],
+        "target": [0, 0.4, 0],
+        "fov": 50
+      }
     },
     {
       "id": "earth-zombie",
+      "name": "Zombie",
+      "description": "Undead creature from the depths",
       "filename": "earth-zombie.glb",
-      "path": "/models/players/earth-zombie.glb"
+      "path": "/models/players/earth-zombie.glb",
+      "preview": {
+        "position": [2.0, 1.2, 2.0],
+        "target": [0, 0.8, 0],
+        "fov": 50,
+        "targetSize": 0.25
+      }
     },
     {
       "id": "peepo",
+      "name": "Peepo",
+      "description": "Smol wholesome frog",
       "filename": "peepo.glb",
-      "path": "/models/players/peepo.glb"
+      "path": "/models/players/peepo.glb",
+      "preview": {
+        "position": [1.2, 0.8, 1.2],
+        "target": [0, 0.3, 0],
+        "fov": 50
+      }
     },
     {
       "id": "pepe",
+      "name": "Pepe",
+      "description": "Rare feels frog",
       "filename": "pepe.glb",
-      "path": "/models/players/pepe.glb"
+      "path": "/models/players/pepe.glb",
+      "preview": {
+        "position": [1.5, 1.0, 1.5],
+        "target": [0, 0.4, 0],
+        "fov": 50
+      }
     },
     {
       "id": "shiba_inu",
+      "name": "Shiba Inu",
+      "description": "Much wow, such doge",
       "filename": "shiba_inu.glb",
-      "path": "/models/players/shiba_inu.glb"
+      "path": "/models/players/shiba_inu.glb",
+      "preview": {
+        "position": [1.5, 1.0, 1.5],
+        "target": [0, 0.4, 0],
+        "fov": 50
+      }
     },
     {
       "id": "wojak",
+      "name": "Wojak",
+      "description": "The original feels guy",
       "animations": [
         {
           "name": "wojak-idle",
@@ -58,12 +96,26 @@
           "filename": "wojak/wojak-throw.glb",
           "path": "/models/players/wojak/wojak-throw.glb"
         }
-      ]
+      ],
+      "preview": {
+        "position": [2.0, 1.5, 2.0],
+        "target": [0, 0.6, 0],
+        "fov": 50
+      }
     },
     {
       "id": "wolf",
+      "name": "Wolf",
+      "description": "Majestic lupine hunter",
       "filename": "wolf.glb",
-      "path": "/models/players/wolf.glb"
+      "path": "/models/players/wolf.glb",
+      "preview": {
+        "position": [1.8, 1.2, 1.8],
+        "target": [0, 0.5, 0],
+        "fov": 50,
+        "targetSize": 0.25,
+        "hideMeshes": ["ground", "plane", "floor"]
+      }
     }
   ]
 }
