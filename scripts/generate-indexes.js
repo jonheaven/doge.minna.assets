@@ -129,7 +129,15 @@ function walkDirectory(dirPath, baseUrl = '') {
 // Start walking from assets directory
 if (fs.existsSync(ASSETS_DIR)) {
   console.log('Generating directory indexes...');
-  walkDirectory(ASSETS_DIR);
+  
+  // Generate index for the assets directory itself
+  const assetsIndexContent = generateIndexForDirectory(ASSETS_DIR, '/assets');
+  const assetsIndexPath = path.join(ASSETS_DIR, 'index.html');
+  fs.writeFileSync(assetsIndexPath, assetsIndexContent);
+  console.log(`✓ Generated index for /assets/`);
+  
+  // Then walk subdirectories
+  walkDirectory(ASSETS_DIR, 'assets');
   console.log('✓ Directory indexes generated successfully');
 } else {
   console.log(`Assets directory not found at ${ASSETS_DIR}`);
