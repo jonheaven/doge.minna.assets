@@ -1,0 +1,352 @@
+{
+  "world": "earth",
+  "spawnPoint": {
+    "x": 6,
+    "y": 0.1,
+    "z": 3
+  },
+  "spawnRadius": 2,
+  "backgroundColor": "#000000",
+  "music": {
+    "track": "/assets/music/soundtrack.mp3",
+    "volume": 0.1
+  },
+  "sfx": [
+    "/assets/sfx/teleport.mp3",
+    "/assets/sfx/interact.mp3",
+    "/assets/sfx/spray-paint.mp3",
+    "/assets/sfx/electricity.mp3",
+    "/assets/sfx/shoot.mp3",
+    "/assets/sfx/shot-impact.mp3",
+    "/assets/sfx/ground-impact.mp3",
+    "/assets/models/env/koenigsegg.glb"
+  ],
+  "structures": [
+    {
+      "id": "floating_base",
+      "modelPath": "/assets/models/structures/base.glb",
+      "position": {
+        "x": 0,
+        "y": 50,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 5,
+      "label": "Floating Base",
+      "enabled": true,
+      "collidable": true
+    },
+    {
+      "id": "boxing_ring",
+      "modelPath": "/assets/models/structures/boxing_ring_arena.glb",
+      "position": {
+        "x": 20,
+          "modelPath": "/assets/models/structures/boxing_ring_arena.glb",
+        "z": 20
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 0.1,
+      "label": "Boxing Ring",
+      "enabled": true,
+      "collidable": true
+    },
+    {
+      "id": "moon",
+      "label": "Moon",
+      "type": "portal",
+      "enabled": true,
+      "modelPath": "/assets/models/env/planets/moon.glb",
+      "positionOffset": {
+        "x": 0,
+          "modelPath": "/assets/models/env/planets/moon.glb",
+        "z": 0
+      },
+      "scale": 0.2,
+      "promptRadius": 10,
+      "triggerRadius": 7,
+      "portalDestination": {
+        "world": "space",
+        "spawnPoint": {
+          "x": 10,
+          "y": 0,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "koenigsegg",
+      "label": "Koenigsegg",
+      "type": "vehicle",
+      "enabled": true,
+      "collidable": true,
+      "modelPath": "/assets/models/env/koenigsegg.glb",
+      "position": [
+        1,
+          "modelPath": "/assets/models/env/koenigsegg.glb",
+        20
+      ],
+      "scale": 1,
+      "interactRadius": 3,
+      "hoverable": true
+    }
+  ],
+  "interactables": [
+    {
+      "id": "arcade_dogebox_1",
+      "label": "DogeBox Arcade",
+      "type": "arcade",
+      "modelPath": "/assets/models/env/arcade_machine.glb",
+      "position": { "x": 0, "y": 0, "z": 0 },
+      "rotation": {"x": 0, "y": 0, "z": 0 },
+          "modelPath": "/assets/models/env/arcade_machine.glb",
+      "interactRadius": 1,
+      "hoverable": true,
+      "enabled": true
+    },
+    {
+      "id": "tesla_coil",
+      "label": "Tesla Coil",
+      "type": "pickup",
+      "enabled": true,
+      "modelPath": "/assets/models/env/tesla_coil.glb",
+      "position": [
+        50,
+          "modelPath": "/assets/models/env/tesla_coil.glb",
+        10
+      ],
+      "scale": 0.5
+    }
+  ],
+  "decorations": [
+    {
+      "id": "campfire",
+      "modelPath": "/assets/models/env/campfire.glb",
+      "position": {
+        "x": 0,
+          "modelPath": "/assets/models/env/campfire.glb",
+        "z": 0
+      },
+      "scale": 0.25,
+      "label": "Campfire",
+      "animation": {
+        "enabled": true,
+        "loop": true
+      },
+      "collidableMeshes": [
+        "OBJECT_66",
+        "OBJECT_54",
+        "OBJECT_58"
+      ]
+    },
+    {
+      "id": "bonsai_tree_1",
+      "modelPath": "/assets/models/env/trees/bonsai_tree.glb",
+      "position": {
+        "x": 40,
+          "modelPath": "/assets/models/env/trees/bonsai_tree.glb",
+        "z": 40
+      },
+      "scale": 0.04,
+      "label": "Bonsai Tree",
+      "hoverable": false
+    }
+  ],
+  "items": [
+    {
+      "id": "broomstick1",
+      "itemType": "broom",
+      "itemId": "items/brooms/stylized_broomstick",
+      "label": "Stylized Broomstick",
+      "path": "/assets/models/items/brooms/stylized_broomstick.glb",
+      "scale": 0.5,
+      "position": {
+          "path": "/assets/models/items/brooms/stylized_broomstick.glb",
+        "y": 0.1,
+        "z": 4
+      },
+      "pickupRotation": [
+        0,
+        0,
+        0
+      ],
+      "rideOffset": [
+        0.02,
+        0,
+        0.1
+      ],
+      "rideRotation": [
+        1.57,
+        1.57,
+        1.57
+      ],
+      "rideScale": 0.5,
+      "enabled": true
+    },
+    {
+      "id": "wizard_broom_1",
+      "itemType": "broom",
+      "itemId": "items/brooms/wizards_broom",
+      "label": "Wizard's Broom",
+      "path": "/assets/models/items/brooms/wizards_broom.glb",
+      "scale": 0.6,
+      "position": {
+          "path": "/assets/models/items/brooms/wizards_broom.glb",
+        "y": 0,
+        "z": 4
+      },
+      "pickupRotation": [
+        0,
+        0,
+        0
+      ],
+      "rideOffset": [
+        0.02,
+        0.15,
+        0.1
+      ],
+      "rideRotation": [
+        1.57,
+        1.57,
+        1.57
+      ],
+      "rideScale": 0.6,
+      "enabled": true
+    },
+    {
+      "id": "nimbus_2000_1",
+      "itemType": "broom",
+      "itemId": "items/brooms/nimbus_2000",
+      "label": "Nimbus 2000",
+      "path": "/assets/models/items/brooms/nimbus_2000.glb",
+      "scale": 0.005,
+      "position": {
+          "path": "/assets/models/items/brooms/nimbus_2000.glb",
+        "y": 0.1,
+        "z": 4
+      },
+      "pickupRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "rideOffset": [
+        0.02,
+        0,
+        0.1
+      ],
+      "rideRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "rideScale": 0.005,
+      "enabled": true
+    },
+    {
+      "id": "nimbus_2002_1",
+      "itemType": "broom",
+      "itemId": "items/brooms/nimbus_2002",
+      "label": "Nimbus 2002",
+      "path": "/assets/models/items/brooms/nimbus_2002.glb",
+      "scale": 0.4,
+      "position": {
+          "path": "/assets/models/items/brooms/nimbus_2002.glb",
+        "y": 0.2,
+        "z": 4
+      },
+      "pickupRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "rideOffset": [
+        0.02,
+        0,
+        0.1
+      ],
+      "rideRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "rideScale": 0.4,
+      "enabled": true
+    },
+    {
+      "id": "wizard_hat",
+      "itemType": "hat",
+      "itemId": "items/wizard_hat",
+      "label": "Wizard Hat",
+      "path": "/assets/models/items/wizard_hat.glb",
+      "scale": 0.3,
+      "position": {
+          "path": "/assets/models/items/wizard_hat.glb",
+        "y": -0.5,
+        "z": 3
+      },
+      "pickupRotation": [
+        0,
+        0,
+        0
+      ],
+      "headOffset": [
+        0.1,
+        0,
+        0
+      ],
+      "headRotation": [
+        0,
+        0,
+        0
+      ],
+      "headScale": 0.3,
+      "perPlayer": true,
+      "enabled": true
+    },
+    {
+      "id": "spray_paint_can",
+      "itemType": "spray_can",
+      "itemId": "items/spray_paint_can",
+      "label": "Spray Paint Can",
+      "path": "/assets/models/items/spray_paint_can.glb",
+      "scale": 0.025,
+      "position": {
+        "x": 8,
+        "y": 0.25,
+        "z": 4
+      },
+      "pickupRotation": [
+        0,
+        0,
+        0
+      ],
+      "enabled": true
+    }
+  ],
+  "npcs": {
+    "wojak": {
+      "enabled": true,
+      "position": {
+        "x": -2,
+        "y": 0.1,
+        "z": -2
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1
+    }
+  }
+}

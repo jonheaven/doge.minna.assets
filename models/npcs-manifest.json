@@ -1,0 +1,21 @@
+{
+  "npcs": [
+    {
+      "id": "doge",
+      "name": "Doge NPC",
+      "path": "/assets/models/players/doge.glb",
+      "scale": 0.7,
+      "punchDistance": 4,
+      "punchCooldown": 2000
+    },
+    {
+      "id": "zombie",
+      "name": "Zombie",
+      "path": "/assets/models/players/earth-zombie.glb",
+      "scale": 0.0125,
+      "punchDistance": 0,
+      "punchCooldown": 0
+    }
+  ]
+}
+

@@ -1,0 +1,120 @@
+{
+  "models": [
+    {
+      "id": "earth",
+      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/planets/earth.glb",
+      "scale": 20
+    },
+    {
+      "id": "moon",
+      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/planets/moon.glb",
+      "scale": 14,
+      "positionOffset": {
+        "x": 0,
+        "y": 140,
+        "z": 0
+      },
+      "promptRadius": 10,
+      "triggerRadius": 7
+    },
+    {
+      "id": "mars",
+      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/planets/mars.glb",
+      "scale": 14
+    },
+    {
+      "id": "bonsai_tree",
+      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/trees/bonsai_tree.glb",
+      "scale": 0.04,
+      "positionOffset": {
+        "x": 0,
+        "y": 9,
+        "z": 0
+      }
+    },
+    {
+      "id": "old_tree",
+      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/trees/old_tree.glb",
+      "scale": 0.9
+    },
+    {
+      "id": "ancient_tree",
+      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/trees/ancient_tree.glb",
+      "scale": 0.02
+    },
+    {
+      "id": "dog_house",
+      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/structures/dog_house.glb",
+      "scale": 1.25,
+      "positionOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "dog_house2",
+      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/structures/dog_house2.glb",
+      "scale": 0.025,
+      "positionOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "koenigsegg",
+      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/koenigsegg.glb",
+      "scale": 1,
+      "positionOffset": {
+        "x": 15,
+        "y": 0.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "tesla_coil",
+      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/tesla_coil.glb",
+      "scale": 1,
+      "position": [
+        2.2,
+        0,
+        -2.2
+      ],
+      "interactRadius": 3,
+      "soundRadius": 10,
+      "maxVolume": 0.6
+    },
+    {
+      "id": "boxing_ring",
+      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/boxing_ring.glb",
+      "scale": 1
+    },
+    {
+      "id": "arcade_machine",
+      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/arcade_machine.glb",
+      "scale": 1
+    }
+  ],
+  "projectiles": {
+    "fire": {
+      "path": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/fire.glb",
+      "scale": 0.3,
+      "flipY": true,
+      "damage": 50
+    }
+  },
+  "teslaCoils": [
+    {
+      "id": "main_tesla",
+      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/tesla_coil.glb",
+      "position": [
+        2.2,
+        0,
+        -2.2
+      ],
+      "scale": 0.5,
+      "label": "Tesla Coil"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "world": "mars",
+  "spawnPoint": {
+    "x": 0,
+    "y": 1,
+    "z": 0
+  },
+  "backgroundColor": "#CD5C5C",
+  "items": [],
+  "sfx": [
+    "/assets/sfx/teleport.mp3",
+    "/assets/sfx/ground-impact.mp3"
+  ],
+  "fog": {
+    "color": "#D2691E",
+    "near": 50,
+    "far": 250
+  },
+  "ambientLight": {
+    "intensity": 0.4,
+    "color": "#FF6347"
+  },
+  "directionalLight": {
+    "position": [
+      100,
+      80,
+      50
+    ],
+    "intensity": 0.9,
+    "color": "#FFA07A"
+  },
+  "terrain": {
+    "size": 500,
+    "segments": 100,
+    "color": "#CD5C5C",
+    "roughness": 0.95,
+    "metalness": 0.05,
+    "displacementScale": 0
+  },
+  "objects": [
+    {
+      "id": "formation_1",
+      "type": "procedural",
+      "component": "RockyFormation",
+      "position": [
+        -30,
+        0,
+        -25
+      ],
+      "scale": 2,
+      "props": {}
+    },
+    {
+      "id": "formation_2",
+      "type": "procedural",
+      "component": "RockyFormation",
+      "position": [
+        25,
+        0,
+        15
+      ],
+      "scale": 1.5,
+      "props": {}
+    },
+    {
+      "id": "formation_3",
+      "type": "procedural",
+      "component": "RockyFormation",
+      "position": [
+        -15,
+        0,
+        30
+      ],
+      "scale": 1.8,
+      "props": {}
+    },
+    {
+      "id": "formation_4",
+      "type": "procedural",
+      "component": "RockyFormation",
+      "position": [
+        40,
+        0,
+        -10
+      ],
+      "scale": 2.2,
+      "props": {}
+    },
+    {
+      "id": "mars_base",
+      "type": "procedural",
+      "component": "MarsBase",
+      "position": [
+        -50,
+        0,
+        40
+      ],
+      "props": {}
+    },
+    {
+      "id": "rock_1",
+      "type": "procedural",
+      "component": "MarsRock",
+      "position": [
+        -10,
+        0,
+        8
+      ],
+      "scale": 0.8,
+      "props": {}
+    },
+    {
+      "id": "rock_2",
+      "type": "procedural",
+      "component": "MarsRock",
+      "position": [
+        15,
+        0,
+        -12
+      ],
+      "scale": 1.2,
+      "props": {}
+    },
+    {
+      "id": "rock_3",
+      "type": "procedural",
+      "component": "MarsRock",
+      "position": [
+        -20,
+        0,
+        -18
+      ],
+      "scale": 1,
+      "props": {}
+    },
+    {
+      "id": "rock_4",
+      "type": "procedural",
+      "component": "MarsRock",
+      "position": [
+        8,
+        0,
+        20
+      ],
+      "scale": 0.9,
+      "props": {}
+    },
+    {
+      "id": "rock_5",
+      "type": "procedural",
+      "component": "MarsRock",
+      "position": [
+        35,
+        0,
+        5
+      ],
+      "scale": 1.3,
+      "props": {}
+    },
+    {
+      "id": "dust_storm",
+      "type": "procedural",
+      "component": "DustStorm",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "props": {
+        "enabled": true
+      }
+    }
+  ]
+}
