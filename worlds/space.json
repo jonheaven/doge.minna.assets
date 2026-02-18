@@ -56,5 +56,46 @@
       "scale": 0.1,
       "enabled": true
     }
-  ]
+  ],
+  "encounters": {
+    "hitRange": 65,
+    "collectRange": 10,
+    "asteroidRespawnMs": 60000,
+    "droneRespawnMs": 75000,
+    "lootTtlMs": 360000,
+    "asteroids": [
+      {
+        "id": "ast_1",
+        "position": { "x": 10, "y": 0, "z": -10 },
+        "health": 120
+      },
+      {
+        "id": "ast_2",
+        "position": { "x": -15, "y": 0, "z": 20 },
+        "health": 140
+      },
+      {
+        "id": "ast_3",
+        "position": { "x": 30, "y": 4, "z": 8 },
+        "health": 180
+      }
+    ],
+    "drones": [
+      {
+        "id": "drn_1",
+        "position": { "x": 25, "y": 0, "z": 0 },
+        "health": 80
+      },
+      {
+        "id": "drn_2",
+        "position": { "x": -30, "y": 0, "z": -15 },
+        "health": 100
+      }
+    ]
+  },
+  "economy": {
+    "authoritativeServerSync": true,
+    "lootCurrency": "USD",
+    "notes": "Space mining loot is in-world value only and not redeemable cash."
+  }
 }

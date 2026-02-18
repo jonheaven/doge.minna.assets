@@ -100,7 +100,7 @@
       "modelPath": "/models/env/planets/moon-mr.glb",
       "positionOffset": {
         "x": 0,
-        "y": 0,
+        "y": 140,
         "z": 0
       },
       "scale": 0.2,
@@ -125,9 +125,9 @@
       "collidable": true,
       "modelPath": "/models/env/koenigsegg.glb",
       "position": [
-        1,
+        -16,
         0.05,
-        20
+        19
       ],
       "scale": 1,
       "interactRadius": 3,
@@ -141,9 +141,9 @@
       "collidable": true,
       "modelPath": "/models/env/cybertruck.glb",
       "position": [
-        5,
+        -16,
         0.05,
-        20
+        22
       ],
       "scale": 1,
       "interactRadius": 3,
