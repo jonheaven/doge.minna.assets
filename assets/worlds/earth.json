@@ -19,7 +19,7 @@
     "/assets/sfx/shoot.mp3",
     "/assets/sfx/shot-impact.mp3",
     "/assets/sfx/ground-impact.mp3",
-    "/assets/models/env/koenigsegg-mr.glb"
+    "/assets/models/env/koenigsegg.glb"
   ],
   "structures": [
     {
@@ -89,7 +89,7 @@
       "type": "vehicle",
       "enabled": true,
       "collidable": true,
-      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/koenigsegg-mr.glb",
+      "modelPath": "https://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/env/koenigsegg.glb",
       "position": [
         1,
         1,
@@ -318,7 +318,7 @@
       "itemType": "spray_can",
       "itemId": "items/spray_paint_can",
       "label": "Spray Paint Can",
-      "path": "/assets/models/items/spray_paint_can-mr.glb",
+      "path": "/assets/models/items/spray_paint_can.glb",
       "scale": 0.025,
       "position": {
         "x": 8,

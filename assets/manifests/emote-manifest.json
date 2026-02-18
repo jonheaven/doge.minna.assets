@@ -11,58 +11,37 @@
     "animations": ["Idle", "Walk", "Armature|Death"],
     "emotes": []
   },
-  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/shiba_inu-mr.glb": {
-    "animations": ["Dog|Idle", "Dog|Jump", "Dog|Run", "Dog|SitDown", "Dog|Walk"],
-    "emotes": ["Sit"]
-  },
+
   "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/shiba_inu.glb": {
     "animations": ["Dog|Idle", "Dog|Jump", "Dog|Run", "Dog|SitDown", "Dog|Walk"],
     "emotes": ["Sit"]
   },
-  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-idle-mr.glb": {
-    "animations": ["mixamo.com"],
-    "emotes": []
-  },
+
   "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-idle.glb": {
     "animations": ["mixamo.com"],
     "emotes": []
   },
-  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-jump-mr.glb": {
-    "animations": ["mixamo.com"],
-    "emotes": []
-  },
+
   "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-jump.glb": {
     "animations": ["mixamo.com"],
     "emotes": []
   },
-  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-left_strafe-mr.glb": {
-    "animations": ["mixamo.com"],
-    "emotes": []
-  },
+
   "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-left_strafe.glb": {
     "animations": ["mixamo.com"],
     "emotes": []
   },
-  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-right_strafe-mr.glb": {
-    "animations": ["mixamo.com"],
-    "emotes": []
-  },
+
   "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-right_strafe.glb": {
     "animations": ["mixamo.com"],
     "emotes": []
   },
-  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-running-mr.glb": {
-    "animations": ["mixamo.com"],
-    "emotes": []
-  },
+
   "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-running.glb": {
     "animations": ["mixamo.com"],
     "emotes": []
   },
-  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-running_backward-mr.glb": {
-    "animations": ["mixamo.com"],
-    "emotes": []
-  },
+
   "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wojak/wojak-running_backward.glb": {
     "animations": ["mixamo.com"],
     "emotes": []
@@ -71,10 +50,7 @@
     "animations": ["mixamo.com"],
     "emotes": []
   },
-  "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wolf-mr.glb": {
-    "animations": ["01_Run", "02_walk", "03_creep", "04_Idle", "05_site"],
-    "emotes": ["Sit"]
-  },
+
   "publichttps://raw.githubusercontent.com/jonheaven/doge.minna.assets/main/assets/models/players/wolf.glb": {
     "animations": ["01_Run", "02_walk", "03_creep", "04_Idle", "05_site"],
     "emotes": ["Sit"]
