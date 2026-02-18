@@ -22,6 +22,25 @@
   ],
   "structures": [
     {
+      "id": "dog_house",
+      "modelPath": "/models/structures/dog_house.glb",
+      "position": {
+        "x": -114,
+        "y": 0,
+        "z": -90
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1.25,
+      "label": "Dog House",
+      "hoverable": true,
+      "collisionEnabled": true,
+      "enabled": true
+    },
+    {
       "id": "floating_base",
       "modelPath": "/models/structures/base.glb",
       "position": {
@@ -34,7 +53,7 @@
         "y": 0,
         "z": 0
       },
-      "scale": 8,
+      "scale": 12,
       "label": "Floating Base",
       "enabled": true,
       "collidable": true
@@ -145,6 +164,19 @@
         "OBJECT_54",
         "OBJECT_58"
       ]
+    },
+    {
+      "id": "sakura_tree",
+      "modelPath": "/models/env/trees/sakura_tree.glb",
+      "position": {
+        "x": -123,
+        "y": 0,
+        "z": -87
+      },
+      "scale": 0.01,
+      "label": "Sakura Tree",
+      "hoverable": false,
+      "enabled": false
     },
     {
       "id": "bonsai_tree_1",
