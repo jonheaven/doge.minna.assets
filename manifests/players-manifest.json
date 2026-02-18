@@ -3,27 +3,27 @@
     {
       "id": "doge",
       "filename": "doge.glb",
-      "path": "/assets/models/players/doge.glb"
+      "path": "/models/players/doge.glb"
     },
     {
       "id": "earth-zombie",
       "filename": "earth-zombie.glb",
-      "path": "/assets/models/players/earth-zombie.glb"
+      "path": "/models/players/earth-zombie.glb"
     },
     {
       "id": "peepo",
       "filename": "peepo.glb",
-      "path": "/assets/models/players/peepo.glb"
+      "path": "/models/players/peepo.glb"
     },
     {
       "id": "pepe",
       "filename": "pepe.glb",
-      "path": "/assets/models/players/pepe.glb"
+      "path": "/models/players/pepe.glb"
     },
     {
       "id": "shiba_inu",
       "filename": "shiba_inu.glb",
-      "path": "/assets/models/players/shiba_inu.glb"
+      "path": "/models/players/shiba_inu.glb"
     },
     {
       "id": "wojak",
@@ -31,39 +31,39 @@
         {
           "name": "wojak-idle",
           "filename": "wojak/wojak-idle.glb",
-          "path": "/assets/models/players/wojak/wojak-idle.glb"
+          "path": "/models/players/wojak/wojak-idle.glb"
         },
         {
           "name": "wojak-jump",
           "filename": "wojak/wojak-jump.glb",
-          "path": "/assets/models/players/wojak/wojak-jump.glb"
+          "path": "/models/players/wojak/wojak-jump.glb"
         },
         {
           "name": "wojak-left_strafe",
           "filename": "wojak/wojak-left_strafe.glb",
-          "path": "/assets/models/players/wojak/wojak-left_strafe.glb"
+          "path": "/models/players/wojak/wojak-left_strafe.glb"
         },
         {
           "name": "wojak-right_strafe",
           "filename": "wojak/wojak-right_strafe.glb",
-          "path": "/assets/models/players/wojak/wojak-right_strafe.glb"
+          "path": "/models/players/wojak/wojak-right_strafe.glb"
         },
         {
           "name": "wojak-running_backward",
           "filename": "wojak/wojak-running_backward.glb",
-          "path": "/assets/models/players/wojak/wojak-running_backward.glb"
+          "path": "/models/players/wojak/wojak-running_backward.glb"
         },
         {
           "name": "wojak-throw",
           "filename": "wojak/wojak-throw.glb",
-          "path": "/assets/models/players/wojak/wojak-throw.glb"
+          "path": "/models/players/wojak/wojak-throw.glb"
         }
       ]
     },
     {
       "id": "wolf",
       "filename": "wolf.glb",
-      "path": "/assets/models/players/wolf.glb"
+      "path": "/models/players/wolf.glb"
     }
   ]
 }
