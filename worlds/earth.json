@@ -18,8 +18,24 @@
     "/sfx/electricity.mp3",
     "/sfx/shoot.mp3",
     "/sfx/shot-impact.mp3",
-    "/sfx/ground-impact.mp3"
+    "/sfx/ground-impact.mp3",
+    "/sfx/zap.mp3"
   ],
+  "terrain": {
+    "enabled": false,
+    "size": 600,
+    "segments": 200,
+    "repeat": 60,
+    "displacementScale": 12,
+    "displacementBias": -6,
+    "textures": {
+      "color": "/textures/ground/earth_grass_color.jpg",
+      "normal": "/textures/ground/earth_grass_normal.jpg",
+      "displacement": "/textures/ground/earth_grass_height.jpg",
+      "roughness": "/textures/ground/earth_grass_roughness.jpg",
+      "ao": "/textures/ground/earth_grass_ao.jpg"
+    }
+  },
   "structures": [
     {
       "id": "dog_house",
@@ -110,6 +126,22 @@
       "modelPath": "/models/env/koenigsegg.glb",
       "position": [
         1,
+        0.05,
+        20
+      ],
+      "scale": 1,
+      "interactRadius": 3,
+      "hoverable": true
+    },
+    {
+      "id": "cybertruck",
+      "label": "Cybertruck",
+      "type": "vehicle",
+      "enabled": true,
+      "collidable": true,
+      "modelPath": "/models/env/cybertruck.glb",
+      "position": [
+        5,
         0.05,
         20
       ],
@@ -276,7 +308,7 @@
   "zombieScatter": {
     "enabled": true,
     "modelPath": "/models/players/mrna-zombie.glb",
-    "scale": 0.00015,
+    "scale": 0.00003,
     "positions": [
       {
         "x": -74,
