@@ -6,12 +6,12 @@
     "z": 0
   },
   "music": {
-    "track": "/assets/music/soundtrack.mp3",
+    "track": "/music/soundtrack.mp3",
     "volume": 0.35
   },
   "sfx": [
-    "/assets/sfx/wind-blowing.mp3",
-    "/assets/sfx/teleport.mp3"
+    "/sfx/wind-blowing.mp3",
+    "/sfx/teleport.mp3"
   ],
   "items": [],
   "moonReturnPortal": {

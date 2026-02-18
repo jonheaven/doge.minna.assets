@@ -8,8 +8,8 @@
   "backgroundColor": "#CD5C5C",
   "items": [],
   "sfx": [
-    "/assets/sfx/teleport.mp3",
-    "/assets/sfx/ground-impact.mp3"
+    "/sfx/teleport.mp3",
+    "/sfx/ground-impact.mp3"
   ],
   "fog": {
     "color": "#D2691E",

@@ -8,17 +8,17 @@
   "spawnRadius": 2,
   "backgroundColor": "#000000",
   "music": {
-    "track": "/assets/music/soundtrack.mp3",
+    "track": "/music/soundtrack.mp3",
     "volume": 0.1
   },
   "sfx": [
-    "/assets/sfx/teleport.mp3",
-    "/assets/sfx/interact.mp3",
-    "/assets/sfx/spray-paint.mp3",
-    "/assets/sfx/electricity.mp3",
-    "/assets/sfx/shoot.mp3",
-    "/assets/sfx/shot-impact.mp3",
-    "/assets/sfx/ground-impact.mp3",
+    "/sfx/teleport.mp3",
+    "/sfx/interact.mp3",
+    "/sfx/spray-paint.mp3",
+    "/sfx/electricity.mp3",
+    "/sfx/shoot.mp3",
+    "/sfx/shot-impact.mp3",
+    "/sfx/ground-impact.mp3",
     "/models/env/koenigsegg.glb"
   ],
   "structures": [
