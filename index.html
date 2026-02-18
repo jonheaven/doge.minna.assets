@@ -9,12 +9,19 @@
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             padding: 20px;
             background: #f5f5f5;
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
         }
         h1 {
             margin-bottom: 10px;
             color: #333;
+        }
+        h2 {
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #444;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 8px;
         }
         .info {
             background: #f0f0f0;
@@ -41,11 +48,35 @@
         .quick-links a:hover {
             background: #0052a3;
         }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .stat-card {
+            background: white;
+            padding: 15px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .stat-card .label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        .stat-card .value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0066cc;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             background: white;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
         }
         th {
             background: #f9f9f9;
@@ -71,37 +102,160 @@
         a:hover {
             text-decoration: underline;
         }
-        .file-count {
-            color: #666;
-            font-size: 14px;
-            margin-top: 20px;
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        .section-separator {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 3px solid #ddd;
         }
     </style>
 </head>
 <body>
     <h1>🦕 Doge Minna Assets</h1>
     <div class="info">
-        <strong>Complete File Index</strong> - All files in the repository are listed below. This index is auto-generated and updated on each deploy.
+        <strong>Complete File Index & Assets Audit</strong> - All files are listed below with a comprehensive size audit. This index is auto-generated and updated on each deploy.
     </div>
     
     <div class="quick-links">
+        <a href="#audit">📊 Assets Audit</a>
+        <a href="#files">📋 Complete File List</a>
         <a href="/assets/">📁 Asset Directory</a>
-        <a href="/assets/manifests/">📋 Manifests</a>
         <a href="/assets/models/">🎨 Models</a>
         <a href="/assets/music/">🎵 Music</a>
         <a href="/assets/sfx/">🔊 Sound Effects</a>
     </div>
     
-    <table>
-        <thead>
-            <tr>
-                <th></th>
-                <th>File Path</th>
-                <th>Size</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr style="background: #e8f4f8;"><td colspan="3" style="font-weight: bold; padding: 12px;">assets/manifests/</td></tr>
+    <div id="audit" class="section-separator">
+        <h2>📊 Assets Audit</h2>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="label">Total Files</div>
+                <div class="value">158</div>
+            </div>
+            <div class="stat-card">
+                <div class="label">Total Size</div>
+                <div class="value">272.11 MB</div>
+            </div>
+            <div class="stat-card">
+                <div class="label">Average File</div>
+                <div class="value">1.72 MB</div>
+            </div>
+            <div class="stat-card">
+                <div class="label">Largest File</div>
+                <div class="value">18.43 MB</div>
+            </div>
+        </div>
+        
+        <h3>🔴 Largest Files (Top 50)</h3>
+        <p style="color: #666; font-size: 14px;">Consider optimizing these files if they're larger than necessary.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>File Path</th>
+                    <th>Size</th>
+                    <th>Type</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td><a href="/assets/unused/millennium_tower_roof.glb">assets/unused/millennium_tower_roof.glb</a></td><td>18.43 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/env/trees/old_tree.glb">assets/models/env/trees/old_tree.glb</a></td><td>15.08 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/structures/brutalist_building4.glb">assets/models/structures/brutalist_building4.glb</a></td><td>14.16 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/unused/brutalist_loft.glb">assets/unused/brutalist_loft.glb</a></td><td>12.47 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/unused/futuristic_city.glb">assets/unused/futuristic_city.glb</a></td><td>11.9 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/structures/brutalist_building.glb">assets/models/structures/brutalist_building.glb</a></td><td>9.74 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/env/trees/bonsai_tree.glb">assets/models/env/trees/bonsai_tree.glb</a></td><td>8.38 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/structures/brutalist_building3.glb">assets/models/structures/brutalist_building3.glb</a></td><td>8.23 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/env/trees/ancient_tree.glb">assets/models/env/trees/ancient_tree.glb</a></td><td>6.94 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/music/soundtrack.mp3">assets/music/soundtrack.mp3</a></td><td>6.51 MB</td><td>.mp3</td></tr>
+<tr><td><a href="/assets/models/env/campfire.glb">assets/models/env/campfire.glb</a></td><td>6.3 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/players/textures/Material__wolf_col_tga_specularGlossiness.png">assets/models/players/textures/Material__wolf_col_tga_specularGlossiness.png</a></td><td>5.71 MB</td><td>.png</td></tr>
+<tr><td><a href="/assets/models/players/wolf/textures/Material__wolf_col_tga_specularGlossiness.png">assets/models/players/wolf/textures/Material__wolf_col_tga_specularGlossiness.png</a></td><td>5.71 MB</td><td>.png</td></tr>
+<tr><td><a href="/assets/models/structures/base.glb">assets/models/structures/base.glb</a></td><td>5.62 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/players/doge.glb">assets/models/players/doge.glb</a></td><td>5.1 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/unused/ore_asteroids.glb">assets/unused/ore_asteroids.glb</a></td><td>4.98 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/music/earth.mp3">assets/music/earth.mp3</a></td><td>4.64 MB</td><td>.mp3</td></tr>
+<tr><td><a href="/assets/music/space.mp3">assets/music/space.mp3</a></td><td>4.64 MB</td><td>.mp3</td></tr>
+<tr><td><a href="/assets/models/env/alien-probe.glb">assets/models/env/alien-probe.glb</a></td><td>4.57 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/npc/alien-probe.glb">assets/models/npc/alien-probe.glb</a></td><td>4.57 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/players/wolf.glb">assets/models/players/wolf.glb</a></td><td>4.51 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/structures/dog_house2.glb">assets/models/structures/dog_house2.glb</a></td><td>4.06 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/players/earth-zombie.glb">assets/models/players/earth-zombie.glb</a></td><td>3.94 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/env/arcade_machine.glb">assets/models/env/arcade_machine.glb</a></td><td>3.8 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/structures/dog_house.glb">assets/models/structures/dog_house.glb</a></td><td>3.78 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/unused/japanese_cherry_tree_low-poly.glb">assets/unused/japanese_cherry_tree_low-poly.glb</a></td><td>3.72 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/unused/meteorite.glb">assets/unused/meteorite.glb</a></td><td>3.68 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/env/space-drone.glb">assets/models/env/space-drone.glb</a></td><td>3.65 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/npc/space-drone.glb">assets/models/npc/space-drone.glb</a></td><td>3.65 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/unused/zombie_dog.glb">assets/unused/zombie_dog.glb</a></td><td>3.15 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/unused/mars-zombie.glb">assets/unused/mars-zombie.glb</a></td><td>2.98 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/env/koenigsegg.glb">assets/models/env/koenigsegg.glb</a></td><td>2.96 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/music/racing.mp3">assets/music/racing.mp3</a></td><td>2.96 MB</td><td>.mp3</td></tr>
+<tr><td><a href="/assets/models/env/koenigsegg-mr.glb">assets/models/env/koenigsegg-mr.glb</a></td><td>2.96 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/structures/brutalist_building2.glb">assets/models/structures/brutalist_building2.glb</a></td><td>2.87 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/structures/warehouse.glb">assets/models/structures/warehouse.glb</a></td><td>2.86 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/items/brooms/nimbus_2000.glb">assets/models/items/brooms/nimbus_2000.glb</a></td><td>2.73 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/unused/campfire-simple.glb">assets/unused/campfire-simple.glb</a></td><td>2.5 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/unused/asteroid_with_minerals.glb">assets/unused/asteroid_with_minerals.glb</a></td><td>2.39 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/players/textures/Material__wolf_col_tga_occlusion.png">assets/models/players/textures/Material__wolf_col_tga_occlusion.png</a></td><td>2.27 MB</td><td>.png</td></tr>
+<tr><td><a href="/assets/models/players/wolf/textures/Material__wolf_col_tga_occlusion.png">assets/models/players/wolf/textures/Material__wolf_col_tga_occlusion.png</a></td><td>2.27 MB</td><td>.png</td></tr>
+<tr><td><a href="/assets/models/env/tesla_coil.glb">assets/models/env/tesla_coil.glb</a></td><td>2.25 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/players/wolf/scene.bin">assets/models/players/wolf/scene.bin</a></td><td>2.13 MB</td><td>.bin</td></tr>
+<tr><td><a href="/assets/models/players/peepo.glb">assets/models/players/peepo.glb</a></td><td>1.96 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/env/trees/sakura_tree.glb">assets/models/env/trees/sakura_tree.glb</a></td><td>1.95 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/players/pepe.glb">assets/models/players/pepe.glb</a></td><td>1.9 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/items/spray_paint_can-mr.glb">assets/models/items/spray_paint_can-mr.glb</a></td><td>1.86 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/unused/spray_paint_can.glb">assets/unused/spray_paint_can.glb</a></td><td>1.73 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/unused/cybertruck.glb">assets/unused/cybertruck.glb</a></td><td>1.68 MB</td><td>.glb</td></tr>
+<tr><td><a href="/assets/models/players/textures/fur__fella3_jpg_001_diffuse.png">assets/models/players/textures/fur__fella3_jpg_001_diffuse.png</a></td><td>1.67 MB</td><td>.png</td></tr>
+            </tbody>
+        </table>
+        
+        <h3>📂 File Type Breakdown</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Extension</th>
+                    <th>Count</th>
+                    <th>Total Size</th>
+                    <th>% of Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>.glb</td><td>66</td><td>221.7 MB</td><td>81.5%</td></tr>
+<tr><td>.mp3</td><td>55</td><td>24.78 MB</td><td>9.1%</td></tr>
+<tr><td>.png</td><td>12</td><td>19.84 MB</td><td>7.3%</td></tr>
+<tr><td>.jpeg</td><td>4</td><td>3.25 MB</td><td>1.2%</td></tr>
+<tr><td>.bin</td><td>1</td><td>2.13 MB</td><td>0.8%</td></tr>
+<tr><td>.gltf</td><td>1</td><td>308.6 KB</td><td>0.1%</td></tr>
+<tr><td>.json</td><td>13</td><td>83.16 KB</td><td>0.0%</td></tr>
+<tr><td>.html</td><td>1</td><td>23.37 KB</td><td>0.0%</td></tr>
+<tr><td>.js</td><td>2</td><td>14.14 KB</td><td>0.0%</td></tr>
+<tr><td>.md</td><td>2</td><td>976 B</td><td>0.0%</td></tr>
+<tr><td>.txt</td><td>1</td><td>766 B</td><td>0.0%</td></tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div id="files" class="section-separator">
+        <h2>📋 Complete File List</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>File Path</th>
+                    <th>Size</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background: #e8f4f8;"><td colspan="3" style="font-weight: bold; padding: 12px;">assets/manifests/</td></tr>
 <tr><td>📄</td><td><a href="/assets/manifests/emote-manifest.json">emote-manifest.json</a></td><td>7.82 KB</td></tr>
 <tr><td>📄</td><td><a href="/assets/manifests/env-manifest.json">env-manifest.json</a></td><td>3.31 KB</td></tr>
 <tr><td>📄</td><td><a href="/assets/manifests/items-manifest.json">items-manifest.json</a></td><td>8.05 KB</td></tr>
@@ -275,17 +429,14 @@
 <tr><td>📄</td><td><a href="/assets/worlds/moon.json">moon.json</a></td><td>2.99 KB</td></tr>
 <tr><td>📄</td><td><a href="/assets/worlds/space.json">space.json</a></td><td>1.13 KB</td></tr>
 <tr style="background: #e8f4f8;"><td colspan="3" style="font-weight: bold; padding: 12px;">root/</td></tr>
-<tr><td>📄</td><td><a href="/index.html">index.html</a></td><td>570 B</td></tr>
+<tr><td>📄</td><td><a href="/index.html">index.html</a></td><td>23.37 KB</td></tr>
 <tr><td>📄</td><td><a href="/package.json">package.json</a></td><td>225 B</td></tr>
 <tr><td>📄</td><td><a href="/vercel.json">vercel.json</a></td><td>123 B</td></tr>
 <tr style="background: #e8f4f8;"><td colspan="3" style="font-weight: bold; padding: 12px;">scripts/</td></tr>
 <tr><td>📄</td><td><a href="/scripts/generate-indexes.js">generate-indexes.js</a></td><td>4.22 KB</td></tr>
-<tr><td>📄</td><td><a href="/scripts/generate-root-index.js">generate-root-index.js</a></td><td>5.58 KB</td></tr>
-        </tbody>
-    </table>
-    
-    <div class="file-count">
-        <strong>Total Files:</strong> 158
+<tr><td>📄</td><td><a href="/scripts/generate-root-index.js">generate-root-index.js</a></td><td>9.92 KB</td></tr>
+            </tbody>
+        </table>
     </div>
 </body>
 </html>
