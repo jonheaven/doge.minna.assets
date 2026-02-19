@@ -104,8 +104,8 @@
         "z": 0
       },
       "scale": 0.2,
-      "promptRadius": 10,
-      "triggerRadius": 7,
+      "promptRadius": 22,
+      "triggerRadius": 16,
       "portalDestination": {
         "world": "space",
         "spawnPoint": {
