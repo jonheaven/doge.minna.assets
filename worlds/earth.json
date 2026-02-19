@@ -302,7 +302,7 @@
   "zombieScatter": {
     "enabled": true,
     "modelPath": "/models/players/mrna-zombie.glb",
-    "scale": 0.00003,
+    "scale": 0.025,
     "positions": [
       {
         "x": -74,
