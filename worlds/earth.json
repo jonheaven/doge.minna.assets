@@ -149,8 +149,8 @@
       "label": "DogeBox Arcade",
       "type": "arcade",
       "modelPath": "/models/env/arcade_machine.glb",
-      "position": { "x": 6, "y": 5, "z": 4 },
-      "scale": 1,
+      "position": { "x": 6, "y": 0, "z": 4 },
+      "scale": 0.5,
       "rotation": {"x": 0, "y": 0, "z": 0 },
       "interactRadius": 1,
       "hoverable": true,
@@ -195,11 +195,11 @@
       "id": "sakura_tree",
       "modelPath": "/models/env/trees/sakura_tree.glb",
       "position": {
-        "x": 40,
-        "y": 60,
-        "z": 70
+        "x": 6,
+        "y": 0,
+        "z": 7
       },
-      "scale": 1,
+      "scale": 0.015,
       "label": "Sakura Tree",
       "hoverable": false,
       "enabled": true
@@ -209,10 +209,10 @@
       "modelPath": "/models/env/trees/bonsai_tree.glb",
       "position": {
         "x": 40,
-        "y": 10,
+        "y": 8,
         "z": 40
       },
-      "scale": 0.04,
+      "scale": 0.03,
       "label": "Bonsai Tree",
       "hoverable": false,
       "enabled": true
@@ -334,6 +334,20 @@
         "x": -2,
         "y": 0.1,
         "z": -2
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1
+    },
+    "doge_boxer": {
+      "enabled": true,
+      "position": {
+        "x": 20,
+        "y": 4,
+        "z": 20
       },
       "rotation": {
         "x": 0,
