@@ -195,14 +195,14 @@
       "id": "sakura_tree",
       "modelPath": "/models/env/trees/sakura_tree.glb",
       "position": {
-        "x": -123,
-        "y": 0,
-        "z": -87
+        "x": 40,
+        "y": 60,
+        "z": 70
       },
-      "scale": 0.01,
+      "scale": 1,
       "label": "Sakura Tree",
       "hoverable": false,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "bonsai_tree_1",
@@ -214,7 +214,8 @@
       },
       "scale": 0.04,
       "label": "Bonsai Tree",
-      "hoverable": false
+      "hoverable": false,
+      "enabled": true
     }
   ],
   "items": [
