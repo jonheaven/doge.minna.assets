@@ -22,19 +22,12 @@
     "/sfx/zap.mp3"
   ],
   "terrain": {
-    "enabled": false,
+    "enabled": true,
     "size": 600,
     "segments": 200,
     "repeat": 60,
     "displacementScale": 12,
-    "displacementBias": -6,
-    "textures": {
-      "color": "/textures/ground/earth_grass_color.jpg",
-      "normal": "/textures/ground/earth_grass_normal.jpg",
-      "displacement": "/textures/ground/earth_grass_height.jpg",
-      "roughness": "/textures/ground/earth_grass_roughness.jpg",
-      "ao": "/textures/ground/earth_grass_ao.jpg"
-    }
+    "displacementBias": -6
   },
   "structures": [
     {
@@ -152,11 +145,12 @@
   ],
   "interactables": [
     {
-      "id": "arcade_dogebox_1",
+      "id": "arcade_dogebox",
       "label": "DogeBox Arcade",
       "type": "arcade",
       "modelPath": "/models/env/arcade_machine.glb",
-      "position": { "x": 0, "y": 0, "z": 0 },
+      "position": { "x": 6, "y": 5, "z": 4 },
+      "scale": 1,
       "rotation": {"x": 0, "y": 0, "z": 0 },
       "interactRadius": 1,
       "hoverable": true,
