@@ -6,9 +6,17 @@
     "z": 0
   },
   "spawnRadius": 4,
+  "bounds": {
+    "size": 600,
+    "centerX": 0,
+    "centerY": 0,
+    "centerZ": 0,
+    "groundY": 0,
+    "interactionRadius": 15
+  },
   "backgroundColor": "#000000",
   "music": {
-    "track": "/music/soundtrack.mp3",
+    "track": "/music/earth.mp3",
     "volume": 1
   },
   "sfx": [
@@ -21,14 +29,6 @@
     "/sfx/ground-impact.mp3",
     "/sfx/zap.mp3"
   ],
-  "terrain": {
-    "enabled": true,
-    "size": 600,
-    "segments": 200,
-    "repeat": 60,
-    "displacementScale": 12,
-    "displacementBias": -6
-  },
   "structures": [
     {
       "id": "dog_house",
@@ -117,11 +117,11 @@
       "enabled": true,
       "collidable": true,
       "modelPath": "/models/env/koenigsegg.glb",
-      "position": [
-        -16,
-        0.05,
-        19
-      ],
+      "position": {
+        "x": -16,
+        "y": 0.05,
+        "z": 19
+      },
       "scale": 1,
       "interactRadius": 3,
       "hoverable": true
@@ -133,11 +133,11 @@
       "enabled": true,
       "collidable": true,
       "modelPath": "/models/env/cybertruck.glb",
-      "position": [
-        -16,
-        0.05,
-        22
-      ],
+      "position": {
+        "x": -16,
+        "y": 0.05,
+        "z": 22
+      },
       "scale": 1,
       "interactRadius": 3,
       "hoverable": true
@@ -162,11 +162,11 @@
       "type": "pickup",
       "enabled": true,
       "modelPath": "/models/env/tesla_coil.glb",
-      "position": [
-        50,
-        0,
-        10
-      ],
+      "position": {
+        "x": 50,
+        "y": 0,
+        "z": 10
+      },
       "scale": 0.5
     }
   ],

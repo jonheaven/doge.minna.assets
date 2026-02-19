@@ -33,14 +33,6 @@
     "intensity": 0.9,
     "color": "#FFA07A"
   },
-  "terrain": {
-    "size": 500,
-    "segments": 100,
-    "color": "#CD5C5C",
-    "roughness": 0.95,
-    "metalness": 0.05,
-    "displacementScale": 0
-  },
   "objects": [
     {
       "id": "formation_1",

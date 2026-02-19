@@ -33,14 +33,6 @@
     "intensity": 1.5,
     "color": "#ffffff"
   },
-  "terrain": {
-    "size": 500,
-    "segments": 100,
-    "color": "#808080",
-    "roughness": 1,
-    "metalness": 0,
-    "displacementScale": 3
-  },
   "objects": [
     {
       "id": "crater_1",

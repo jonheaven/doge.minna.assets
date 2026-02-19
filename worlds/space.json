@@ -13,7 +13,44 @@
     "/sfx/wind-blowing.mp3",
     "/sfx/teleport.mp3"
   ],
-  "items": [],
+  "items": [
+    {
+      "id": "broomstick1",
+      "itemType": "broom",
+      "itemId": "items/brooms/stylized_broomstick",
+      "label": "Stylized Broomstick",
+      "path": "/models/items/brooms/stylized_broomstick.glb",
+      "scale": 0.5,
+      "position": {
+        "x": 25,
+        "y": 5,
+        "z": 20
+      },
+      "pickupRotation": [0, 0, 0],
+      "rideOffset": [0.02, 0, 0.1],
+      "rideRotation": [0, 3.14159265, 0],
+      "rideScale": 1,
+      "enabled": true
+    },
+    {
+      "id": "broomstick2",
+      "itemType": "broom",
+      "itemId": "items/brooms/golden_broom",
+      "label": "Golden Broom",
+      "path": "/models/items/brooms/golden_broom.glb",
+      "scale": 0.45,
+      "position": {
+        "x": -40,
+        "y": 8,
+        "z": -30
+      },
+      "pickupRotation": [0, 0.785, 0],
+      "rideOffset": [0.02, 0, 0.1],
+      "rideRotation": [0, 3.14159265, 0],
+      "rideScale": 1,
+      "enabled": true
+    }
+  ],
   "moonReturnPortal": {
     "promptRadius": 14,
     "triggerRadius": 9
@@ -24,11 +61,7 @@
       "id": "earth",
       "label": "Earth",
       "modelPath": "/models/env/planets/earth-mr.glb",
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
+      "position": { "x": 0, "y": 0, "z": 0 },
       "scale": 0.1,
       "enabled": true
     },
@@ -36,11 +69,7 @@
       "id": "moon",
       "label": "Moon",
       "modelPath": "/models/env/planets/moon-mr.glb",
-      "position": {
-        "x": 420,
-        "y": 30,
-        "z": -60
-      },
+      "position": { "x": 420, "y": 30, "z": -60 },
       "scale": 0.1,
       "enabled": true
     },
@@ -48,15 +77,39 @@
       "id": "mars",
       "label": "Mars",
       "modelPath": "/models/env/planets/mars-mr.glb",
-      "position": {
-        "x": -900,
-        "y": 120,
-        "z": 450
-      },
+      "position": { "x": -900, "y": 120, "z": 450 },
       "scale": 0.1,
       "enabled": true
     }
   ],
+  "spaceEnemyScatter": {
+    "enabled": true,
+    "models": [
+      {
+        "id": "space_drone",
+        "modelPath": "/models/env/space-drone.glb",
+        "label": "Rogue AI Drone",
+        "scale": 1.5,
+        "health": 80,
+        "damage": 15
+      },
+      {
+        "id": "alien_probe",
+        "modelPath": "/models/env/alien-probe.glb",
+        "label": "Alien Probe",
+        "scale": 1.2,
+        "health": 130,
+        "damage": 30
+      }
+    ],
+    "positions": [
+      { "x": 25,  "y": 0,  "z": 0   },
+      { "x": -30, "y": 0,  "z": -15 },
+      { "x": 18,  "y": 6,  "z": 28  },
+      { "x": -12, "y": -4, "z": 35  },
+      { "x": 45,  "y": 3,  "z": -20 }
+    ]
+  },
   "encounters": {
     "hitRange": 65,
     "collectRange": 10,
@@ -64,33 +117,16 @@
     "droneRespawnMs": 75000,
     "lootTtlMs": 360000,
     "asteroids": [
-      {
-        "id": "ast_1",
-        "position": { "x": 10, "y": 0, "z": -10 },
-        "health": 120
-      },
-      {
-        "id": "ast_2",
-        "position": { "x": -15, "y": 0, "z": 20 },
-        "health": 140
-      },
-      {
-        "id": "ast_3",
-        "position": { "x": 30, "y": 4, "z": 8 },
-        "health": 180
-      }
+      { "id": "ast_1", "position": { "x": 10,  "y": 0, "z": -10 }, "health": 120 },
+      { "id": "ast_2", "position": { "x": -15, "y": 0, "z": 20  }, "health": 140 },
+      { "id": "ast_3", "position": { "x": 30,  "y": 4, "z": 8   }, "health": 180 }
     ],
     "drones": [
-      {
-        "id": "drn_1",
-        "position": { "x": 25, "y": 0, "z": 0 },
-        "health": 80
-      },
-      {
-        "id": "drn_2",
-        "position": { "x": -30, "y": 0, "z": -15 },
-        "health": 100
-      }
+      { "id": "drn_1", "position": { "x": 25,  "y": 0,  "z": 0   }, "health": 80  },
+      { "id": "drn_2", "position": { "x": -30, "y": 0,  "z": -15 }, "health": 100 },
+      { "id": "drn_3", "position": { "x": 18,  "y": 6,  "z": 28  }, "health": 80  },
+      { "id": "drn_4", "position": { "x": -12, "y": -4, "z": 35  }, "health": 130 },
+      { "id": "drn_5", "position": { "x": 45,  "y": 3,  "z": -20 }, "health": 80  }
     ]
   },
   "economy": {
