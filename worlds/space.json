@@ -7,7 +7,7 @@
   },
   "music": {
     "track": "/music/space.mp3",
-    "volume": 0.35
+    "volume": 1
   },
   "sfx": [
     "/sfx/wind-blowing.mp3",
@@ -23,7 +23,7 @@
     {
       "id": "earth",
       "label": "Earth",
-      "modelPath": "/models/env/planets/earth.glb",
+      "modelPath": "/models/env/planets/earth-mr.glb",
       "position": {
         "x": 0,
         "y": 0,
@@ -35,7 +35,7 @@
     {
       "id": "moon",
       "label": "Moon",
-      "modelPath": "/models/env/planets/moon.glb",
+      "modelPath": "/models/env/planets/moon-mr.glb",
       "position": {
         "x": 420,
         "y": 30,
@@ -47,7 +47,7 @@
     {
       "id": "mars",
       "label": "Mars",
-      "modelPath": "/models/env/planets/mars.glb",
+      "modelPath": "/models/env/planets/mars-mr.glb",
       "position": {
         "x": -900,
         "y": 120,
