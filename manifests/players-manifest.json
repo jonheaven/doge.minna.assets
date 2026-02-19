@@ -7,7 +7,7 @@
       "filename": "doge.glb",
       "path": "/models/players/doge.glb",
       "orientationOffset": 0,
-      "scaleMultiplier": 1.0,
+      "scaleMultiplier": 0.5,
       "broomOrientationCorrection": 0,
       "hatAttachment": {
         "headOffset": [0, 0.08, 0],
