@@ -221,22 +221,101 @@
       "headScale": 1.0
     },
     {
-      "id": "projectile_magic_bolt",
+      "id": "fire",
       "itemType": "projectile",
-      "itemId": "projectiles/magic_bolt",
-      "label": "Magic Bolt",
-      "path": "/models/env/fire.glb",
-      "scale": 0.3,
+      "itemId": "projectiles/fire",
+      "label": "Fireball",
+      "path": "/models/items/fireball-projectile.glb",
+      "scale": 0.8,
       "flipY": false,
       "enabled": true
     },
     {
-      "id": "projectile_lightning",
+      "id": "lightning",
       "itemType": "projectile",
       "itemId": "projectiles/lightning",
-      "label": "Lightning Projectile",
-      "path": "/models/env/alien-probe.glb",
-      "scale": 0.2,
+      "label": "Lightning Bolt",
+      "procedural": true,
+      "scale": 1.0,
+      "enabled": true
+    },
+    {
+      "id": "ice",
+      "itemType": "projectile",
+      "itemId": "projectiles/ice",
+      "label": "Ice Cube",
+      "path": "/models/items/ice-projectile.glb",
+      "scale": 0.8,
+      "flipY": false,
+      "enabled": true
+    },
+    {
+      "id": "potion",
+      "itemType": "projectile",
+      "itemId": "projectiles/potion",
+      "label": "Potion",
+      "path": "/models/items/potion.glb",
+      "scale": 0.5,
+      "flipY": false,
+      "enabled": true
+    },
+    {
+      "id": "astro",
+      "itemType": "projectile",
+      "itemId": "projectiles/astro",
+      "label": "Astro Ball",
+      "path": "/models/items/astro-projectile.glb",
+      "scale": 0.6,
+      "flipY": false,
+      "enabled": true
+    },
+    {
+      "id": "grenade",
+      "itemType": "projectile",
+      "itemId": "projectiles/grenade",
+      "label": "Grenade",
+      "path": "/models/items/grenade-projectile.glb",
+      "scale": 0.7,
+      "flipY": false,
+      "enabled": true
+    },
+    {
+      "id": "jelly",
+      "itemType": "projectile",
+      "itemId": "projectiles/jelly",
+      "label": "Jelly Ball",
+      "path": "/models/items/jelly-ball-projectile.glb",
+      "scale": 0.6,
+      "flipY": false,
+      "enabled": true
+    },
+    {
+      "id": "magma",
+      "itemType": "projectile",
+      "itemId": "projectiles/magma",
+      "label": "Magma Ball",
+      "path": "/models/items/magma-ball-projectile.glb",
+      "scale": 0.7,
+      "flipY": false,
+      "enabled": true
+    },
+    {
+      "id": "skewer",
+      "itemType": "projectile",
+      "itemId": "projectiles/skewer",
+      "label": "Skewer Ball",
+      "path": "/models/items/skewer_ball-projectile.glb",
+      "scale": 0.6,
+      "flipY": false,
+      "enabled": true
+    },
+    {
+      "id": "uttvm",
+      "itemType": "projectile",
+      "itemId": "projectiles/uttvm",
+      "label": "Uttvm Blast",
+      "path": "/models/items/uttvm-projectile.glb",
+      "scale": 0.8,
       "flipY": false,
       "enabled": true
     }
