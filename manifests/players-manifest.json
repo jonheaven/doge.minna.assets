@@ -6,6 +6,15 @@
       "description": "The legendary Shiba that started it all",
       "filename": "doge.glb",
       "path": "/models/players/doge.glb",
+      "orientationOffset": 0,
+      "scaleMultiplier": 1.0,
+      "broomOrientationCorrection": 0,
+      "hatAttachment": {
+        "headOffset": [0, 0.08, 0],
+        "headRotation": [0, 0, 0],
+        "headScale": 0.3,
+        "rootFallbackOffset": [0, 0.85, 0]
+      },
       "preview": {
         "position": [-0.19, 0.06, 0.11],
         "target": [-0.04, 0.06, -0.03],
@@ -18,6 +27,15 @@
       "description": "Undead creature from the depths",
       "filename": "mrna-zombie.glb",
       "path": "/models/players/mrna-zombie.glb",
+      "orientationOffset": 0,
+      "scaleMultiplier": 1.0,
+      "broomOrientationCorrection": 0,
+      "hatAttachment": {
+        "headOffset": [0, 0.1, 0],
+        "headRotation": [0, 0, 0],
+        "headScale": 0.35,
+        "rootFallbackOffset": [0, 1.1, 0]
+      },
       "preview": {
         "position": [0.06, -0.11, 0.11],
         "target": [-0.06, -0.07, -0.12],
@@ -31,6 +49,15 @@
       "description": "Smol wholesome frog",
       "filename": "peepo.glb",
       "path": "/models/players/peepo.glb",
+      "orientationOffset": 0,
+      "scaleMultiplier": 1.0,
+      "broomOrientationCorrection": 0,
+      "hatAttachment": {
+        "headOffset": [0, 0.1, 0],
+        "headRotation": [0, 0, 0],
+        "headScale": 0.3,
+        "rootFallbackOffset": [0, 0.9, 0]
+      },
       "preview": {
         "position": [0.12, 0.04, 0.28],
         "target": [-0.04, 0.00, -0.11],
@@ -43,6 +70,15 @@
       "description": "Much wow, such doge",
       "filename": "shiba_inu.glb",
       "path": "/models/players/shiba_inu.glb",
+      "orientationOffset": 0,
+      "scaleMultiplier": 1.0,
+      "broomOrientationCorrection": 0,
+      "hatAttachment": {
+        "headOffset": [0, 0.08, 0],
+        "headRotation": [0, 0, 0],
+        "headScale": 0.3,
+        "rootFallbackOffset": [0, 0.85, 0]
+      },
       "preview": {
         "position": [0.23, 0.04, 0.22],
         "target": [-0.08, -0.01, -0.06],
@@ -53,6 +89,15 @@
       "id": "wojak",
       "name": "Wojak",
       "description": "The original feels guy",
+      "orientationOffset": 0,
+      "scaleMultiplier": 2.4,
+      "broomOrientationCorrection": 0,
+      "hatAttachment": {
+        "headOffset": [0, 0.15, 0],
+        "headRotation": [0, 0, 0],
+        "headScale": 0.4,
+        "rootFallbackOffset": [0, 1.5, 0]
+      },
       "animations": [
         {
           "name": "wojak-idle",
@@ -97,6 +142,15 @@
       "description": "Majestic lupine hunter",
       "filename": "wolf.glb",
       "path": "/models/players/wolf.glb",
+      "orientationOffset": 1.5708,
+      "scaleMultiplier": 1.0,
+      "broomOrientationCorrection": -1.5708,
+      "hatAttachment": {
+        "headOffset": [0, 0.08, 0],
+        "headRotation": [-1.5708, 0, 0],
+        "headScale": 0.35,
+        "rootFallbackOffset": [0, 0.9, 0]
+      },
       "preview": {
         "position": [-0.21, 0.07, 0.19],
         "target": [-0.08, 0.02, 0.04],
