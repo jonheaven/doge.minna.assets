@@ -9,6 +9,9 @@
       "orientationOffset": 0,
       "scaleMultiplier": 0.75,
       "broomOrientationCorrection": 0,
+      "abilities": [
+        "Punch attack (O key)"
+      ],
       "hatAttachment": {
         "headOffset": [0.05, -0.6, 0.2],
         "headRotation": [0, 0, 0],
@@ -52,6 +55,10 @@
       "orientationOffset": 0,
       "scaleMultiplier": 1.0,
       "broomOrientationCorrection": 0,
+      "abilities": [
+        "Jumps 50% higher",
+        "Floatier falls (slower gravity)"
+      ],
       "hatAttachment": {
         "headOffset": [0, 0.1, 0],
         "headRotation": [0, 0, 0],
@@ -73,6 +80,9 @@
       "orientationOffset": 0,
       "scaleMultiplier": 1.0,
       "broomOrientationCorrection": 0,
+      "abilities": [
+        "Slower walk speed (animation sync)"
+      ],
       "hatAttachment": {
         "headOffset": [0, 0.08, 0],
         "headRotation": [0, 0, 0],
@@ -92,6 +102,9 @@
       "orientationOffset": 0,
       "scaleMultiplier": 2.4,
       "broomOrientationCorrection": 0,
+      "abilities": [
+        "Throw animation (T key)"
+      ],
       "hatAttachment": {
         "headOffset": [0, 0.15, 0],
         "headRotation": [0, 0, 0],
@@ -108,6 +121,11 @@
           "name": "wojak-jump",
           "filename": "wojak/wojak-jump.glb",
           "path": "/models/players/wojak/wojak-jump.glb"
+        },
+        {
+          "name": "wojak-running_forward",
+          "filename": "wojak/wojak-running_forward.glb",
+          "path": "/models/players/wojak/wojak-running_forward.glb"
         },
         {
           "name": "wojak-left_strafe",
