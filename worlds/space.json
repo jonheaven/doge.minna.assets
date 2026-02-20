@@ -162,5 +162,38 @@
     "authoritativeServerSync": true,
     "lootCurrency": "USD",
     "notes": "Space mining loot is in-world value only and not redeemable cash."
+  },
+  "droneScatter": {
+    "enabled": true,
+    "modelPath": "/models/env/space-drone.glb",
+    "scale": 1.5,
+    "count": 5,
+    "positions": [
+      {
+        "x": 25,
+        "y": 0,
+        "z": 0
+      },
+      {
+        "x": -30,
+        "y": 0,
+        "z": -15
+      },
+      {
+        "x": 18,
+        "y": 6,
+        "z": 28
+      },
+      {
+        "x": -12,
+        "y": -4,
+        "z": 35
+      },
+      {
+        "x": 45,
+        "y": 3,
+        "z": -20
+      }
+    ]
   }
 }
