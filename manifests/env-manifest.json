@@ -1,0 +1,81 @@
+{
+  "earth": {
+    "galleryBounds": {
+      "center": { "x": 0, "y": 0, "z": 0 },
+      "radius": 15,
+      "groundY": 0
+    }
+  },
+  "models": [
+    {
+      "id": "koenigsegg",
+      "position": { "x": -10, "y": 0, "z": 8 }
+    },
+    {
+      "id": "cybertruck",
+      "position": { "x": 46, "y": 0.06, "z": 12 }
+    }
+  ],
+  "projectiles": {
+    "fire": {
+      "path": "/models/items/fireball-projectile.glb",
+      "scale": 0.8,
+      "flipY": false,
+      "damage": 20
+    },
+    "lightning": {
+      "path": "/models/items/fireball-2-projectile.glb",
+      "scale": 0.8,
+      "flipY": false,
+      "damage": 20
+    },
+    "ice": {
+      "path": "/models/items/ice-projectile.glb",
+      "scale": 0.8,
+      "flipY": false,
+      "damage": 20
+    },
+    "potion": {
+      "path": "/models/items/potion.glb",
+      "scale": 0.5,
+      "flipY": false,
+      "damage": 20
+    },
+    "astro": {
+      "path": "/models/items/astro-projectile.glb",
+      "scale": 0.6,
+      "flipY": false,
+      "damage": 20
+    },
+    "grenade": {
+      "path": "/models/items/grenade-projectile.glb",
+      "scale": 0.7,
+      "flipY": false,
+      "damage": 20
+    },
+    "jelly": {
+      "path": "/models/items/jelly-ball-projectile.glb",
+      "scale": 0.6,
+      "flipY": false,
+      "damage": 20
+    },
+    "magma": {
+      "path": "/models/items/magma-ball-projectile.glb",
+      "scale": 0.7,
+      "flipY": false,
+      "damage": 20
+    },
+    "skewer": {
+      "path": "/models/items/skewer_ball-projectile.glb",
+      "scale": 0.6,
+      "flipY": false,
+      "damage": 20
+    },
+    "uttvm": {
+      "path": "/models/items/uttvm-projectile.glb",
+      "scale": 0.8,
+      "flipY": false,
+      "damage": 20
+    }
+  }
+}

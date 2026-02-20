@@ -152,9 +152,9 @@
       "collidable": true,
       "modelPath": "/models/env/cybertruck.glb",
       "position": {
-        "x": -16,
+        "x": 46,
         "y": 0.06,
-        "z": 22
+        "z": 12
       },
       "scale": 1,
       "interactRadius": 3,

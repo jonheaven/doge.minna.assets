@@ -235,8 +235,9 @@
       "itemType": "projectile",
       "itemId": "projectiles/lightning",
       "label": "Lightning Bolt",
-      "procedural": true,
-      "scale": 1.0,
+      "path": "/models/items/fireball-2-projectile.glb",
+      "scale": 0.8,
+      "flipY": false,
       "enabled": true
     },
     {
