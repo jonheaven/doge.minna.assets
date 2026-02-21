@@ -12,8 +12,42 @@
     "emotes": []
   },
   "public/models/players/shiba_inu.glb": {
-    "animations": ["Dog|Idle", "Dog|Jump", "Dog|Run", "Dog|SitDown", "Dog|Walk"],
-    "emotes": ["Sit"]
+    "animations": [
+      "Dog|Idle",
+      "Dog|Jump",
+      "Dog|Run",
+      "Dog|SitDown",
+      "Dog|Walk",
+      "Dog|Wave",
+      "Dog|Bark",
+      "Dog|Lay",
+      "Dog|Sniff",
+      "Dog|Shake",
+      "Dog|Dig",
+      "Dog|PlayBow",
+      "Dog|Pee",
+      "Dog|Poop"
+    ],
+    "emotes": ["Wave", "Bark", "Sit", "Lay", "Sniff", "Shake", "Dig", "PlayBow", "Pee", "Poop"]
+  },
+  "public/models/players/animated_pitbull_dog.glb": {
+    "animations": [
+      "idle 50",
+      "walk_fwd 29",
+      "run_fwd 13",
+      "jump 22",
+      "idle_sit_pose 2",
+      "idle_lay_pose 2",
+      "idle_sniff_pose",
+      "idle_shake_1. 137",
+      "idle_one_off_dig 184",
+      "idle_bark_04_warning 47",
+      "playbow 1",
+      "pee 43",
+      "poop 75",
+      "wave 18"
+    ],
+    "emotes": ["Wave", "Bark", "Sit", "Lay", "Sniff", "Shake", "Dig", "PlayBow", "Pee", "Poop"]
   },
   "public/models/players/wojak/wojak-idle.glb": {
     "animations": ["mixamo.com"],
@@ -45,7 +79,7 @@
   },
   "public/models/players/wolf.glb": {
     "animations": ["01_Run", "02_walk", "03_creep", "04_Idle", "05_site"],
-    "emotes": ["Sit"]
+    "emotes": ["Wave", "Bark", "Sit", "Lay", "Sniff", "Shake", "Dig", "PlayBow", "Pee", "Poop"]
   },
   "public/models/players/zombie_dog.glb": {
     "animations": ["GltfAnimation 0"],

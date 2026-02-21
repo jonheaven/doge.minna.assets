@@ -96,6 +96,31 @@
       }
     },
     {
+      "id": "animated_pitbull_dog",
+      "name": "Animated Pitbull",
+      "description": "High-fidelity canine with a huge animation set",
+      "filename": "animated_pitbull_dog.glb",
+      "path": "/models/players/animated_pitbull_dog.glb",
+      "orientationOffset": 0,
+      "scaleMultiplier": 1.0,
+      "broomOrientationCorrection": 0,
+      "abilities": [
+        "Expanded animation library"
+      ],
+      "hatAttachment": {
+        "headOffset": [0, 0.08, 0],
+        "headRotation": [0, 0, 0],
+        "headScale": 0.3,
+        "rootFallbackOffset": [0, 0.9, 0]
+      },
+      "preview": {
+        "position": [0.18, 0.07, 0.26],
+        "target": [-0.02, 0.01, -0.02],
+        "fov": 50,
+        "targetSize": 0.24
+      }
+    },
+    {
       "id": "wojak",
       "name": "Wojak",
       "description": "The original feels guy",

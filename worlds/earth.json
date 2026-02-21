@@ -373,6 +373,20 @@
         "z": 0
       },
       "scale": 1
+    },
+    "dog_companion": {
+      "enabled": true,
+      "position": {
+        "x": 2,
+        "y": 0,
+        "z": 2
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1
     }
   }
 }
