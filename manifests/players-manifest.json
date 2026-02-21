@@ -96,6 +96,31 @@
       }
     },
     {
+      "id": "shiba_inu-2",
+      "name": "Shiba Inu 2",
+      "description": "Expressive shiba with expanded emotes and classic locomotion",
+      "filename": "shiba_inu-2.glb",
+      "path": "/models/players/shiba_inu-2.glb",
+      "orientationOffset": 0,
+      "scaleMultiplier": 1.0,
+      "broomOrientationCorrection": 0,
+      "abilities": [
+        "Expanded emote animation set",
+        "Classic walk/run/jump locomotion retarget"
+      ],
+      "hatAttachment": {
+        "headOffset": [0, 0.08, 0],
+        "headRotation": [0, 0, 0],
+        "headScale": 0.3,
+        "rootFallbackOffset": [0, 0.85, 0]
+      },
+      "preview": {
+        "position": [0.18, 0.05, 0.23],
+        "target": [-0.07, -0.01, -0.05],
+        "fov": 50
+      }
+    },
+    {
       "id": "animated_pitbull_dog",
       "name": "Animated Pitbull",
       "description": "High-fidelity canine with a huge animation set",

@@ -30,6 +30,30 @@
     ],
     "emotes": ["Wave", "Bark", "Sit", "Lay", "Sniff", "Shake", "Dig", "PlayBow", "Pee", "Poop"]
   },
+  "public/models/players/shiba_inu-2.glb": {
+    "animations": [
+      "standing",
+      "sitting",
+      "shake",
+      "rollover",
+      "play_dead",
+      "Dog|Idle",
+      "Dog|Jump",
+      "Dog|Run",
+      "Dog|SitDown",
+      "Dog|Walk",
+      "Dog|Wave",
+      "Dog|Bark",
+      "Dog|Lay",
+      "Dog|Sniff",
+      "Dog|Shake",
+      "Dog|Dig",
+      "Dog|PlayBow",
+      "Dog|Pee",
+      "Dog|Poop"
+    ],
+    "emotes": ["Wave", "Bark", "Sit", "Lay", "Sniff", "Shake", "Dig", "PlayBow", "Pee", "Poop"]
+  },
   "public/models/players/animated_pitbull_dog.glb": {
     "animations": [
       "idle 50",
