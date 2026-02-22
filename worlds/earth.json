@@ -71,9 +71,9 @@
       "id": "boxing_ring",
       "modelPath": "/models/structures/boxing_ring_arena.glb",
       "position": {
-        "x": 20,
+        "x": 30,
         "y": 0,
-        "z": 20
+        "z": 30
       },
       "rotation": {
         "x": 0,
@@ -90,7 +90,7 @@
       "modelPath": "/models/structures/environment_vr_room_baked.glb",
       "position": {
         "x": 40,
-        "y": 0,
+        "y": 0.01,
         "z": 20
       },
       "rotation": {
@@ -364,7 +364,7 @@
       "enabled": true,
       "position": {
         "x": 20,
-        "y": 4,
+        "y": 7,
         "z": 20
       },
       "rotation": {
