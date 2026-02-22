@@ -51,7 +51,7 @@
     },
     {
       "id": "billboard",
-      "modelPath": "/models/structures/billboard.glb",
+      "modelPath": "/models/env/billboard.glb",
       "position": {
         "x": 0,
         "y": 0,
