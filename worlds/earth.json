@@ -71,9 +71,9 @@
       "id": "boxing_ring",
       "modelPath": "/models/structures/boxing_ring_arena.glb",
       "position": {
-        "x": 30,
+        "x": 50,
         "y": 0,
-        "z": 30
+        "z": 50
       },
       "rotation": {
         "x": 0,
@@ -169,7 +169,7 @@
       "modelPath": "/models/env/arcade_machine.glb",
       "position": { "x": 6, "y": 0, "z": 4 },
       "scale": 0.5,
-      "rotation": {"x": 0, "y": 0, "z": 0 },
+      "rotation": {"x": 3.14159265, "y": 0, "z": 0 },
       "interactRadius": 1,
       "hoverable": true,
       "enabled": true
@@ -363,9 +363,9 @@
     "doge_boxer": {
       "enabled": true,
       "position": {
-        "x": 20,
-        "y": 7,
-        "z": 20
+        "x": 50,
+        "y": 10,
+        "z": 50
       },
       "rotation": {
         "x": 0,
@@ -377,9 +377,9 @@
     "dog_companion": {
       "enabled": true,
       "position": {
-        "x": 2,
+        "x": 6,
         "y": 0,
-        "z": 2
+        "z": 6
       },
       "rotation": {
         "x": 0,
