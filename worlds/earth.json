@@ -120,6 +120,7 @@
       "scale": 1,
       "label": "VR Room",
       "enabled": true,
+      "collisionEnabled": true,
       "collidable": true
     },
     {
