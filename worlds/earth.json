@@ -50,6 +50,25 @@
       "enabled": true
     },
     {
+      "id": "billboard",
+      "modelPath": "/models/structures/billboard.glb",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1,
+      "label": "Billboard",
+      "hoverable": true,
+      "collisionEnabled": true,
+      "enabled": true
+    },
+    {
       "id": "floating_base",
       "modelPath": "/models/structures/base.glb",
       "position": {
