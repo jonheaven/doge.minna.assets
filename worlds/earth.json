@@ -69,25 +69,6 @@
       "enabled": true
     },
     {
-      "id": "billboard",
-      "modelPath": "/models/env/billboard.glb",
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "rotation": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "scale": 1,
-      "label": "Billboard",
-      "hoverable": true,
-      "collisionEnabled": true,
-      "enabled": true
-    },
-    {
       "id": "floating_base",
       "modelPath": "/models/structures/base.glb",
       "position": {
@@ -201,6 +182,25 @@
     }
   ],
   "interactables": [
+    {
+      "id": "billboard",
+      "modelPath": "/models/env/billboard.glb",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1,
+      "label": "Billboard",
+      "hoverable": true,
+      "collisionEnabled": true,
+      "enabled": true
+    },
     {
       "id": "arcade_dogebox",
       "label": "DogeBox Arcade",
