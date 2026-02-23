@@ -1,5 +1,11 @@
 {
   "world": "earth",
+  "ground": {
+    "texture": "/textures/grass.jpg",
+    "tiling": [8, 8],
+    "size": 600,
+    "y": 0
+  },
   "spawnPoint": {
     "x": 0,
     "y": 0.001,
@@ -17,7 +23,7 @@
   "backgroundColor": "#000000",
   "music": {
     "track": "/music/earth.mp3",
-    "volume": 1
+    "volume": 0.3
   },
   "sfx": [
     "/sfx/teleport.mp3",
@@ -31,12 +37,32 @@
   ],
   "structures": [
     {
+      "id": "tower",
+      "modelPath": "/models/env/millennium_tower_roof.glb",
+      "position": {
+        "x": 0,
+        "y": 165,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1,
+      "label": "Millennium Tower",
+      "hoverable": false,
+      "collidable": true,
+      "collisionEnabled": true,
+      "enabled": true
+    },
+    {
       "id": "X",
       "modelPath": "/models/env/x_logo_nobg.glb",
       "position": {
         "x": 100,
-        "y": 100,
-        "z": 100
+        "y": 200,
+        "z": 0
       },
       "rotation": {
         "x": 0,
@@ -50,38 +76,36 @@
       "enabled": true
     },
     {
-      "id": "dog_house",
+      "id": "dog_house_1",
+      "label": "Doge House",
       "modelPath": "/models/structures/dog_house.glb",
-      "position": {
-        "x": -114,
-        "y": 0,
-        "z": -90
-      },
-      "rotation": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "scale": 1.25,
-      "label": "Dog House",
-      "hoverable": true,
-      "collisionEnabled": true,
-      "enabled": true
+      "position": { "x": 12, "y": 0, "z": -6 },
+      "scale": 1,
+      "collidable": true,
+      "portal": {
+        "label": "Doge House",
+        "targetWorld": "doghouse_1",
+        "promptRadius": 3,
+        "triggerRadius": 1.4,
+        "activation": "interact",
+        "movementMode": "ground",
+        "spawnPoint": { "x": 0, "y": 0.5, "z": 5 }
+      }
     },
     {
       "id": "floating_base",
       "modelPath": "/models/structures/base.glb",
       "position": {
         "x": 0,
-        "y": 50,
-        "z": 0
+        "y": 360,
+        "z": 180
       },
       "rotation": {
         "x": 0,
         "y": 0,
         "z": 0
       },
-      "scale": 12,
+      "scale": 8,
       "label": "Floating Base",
       "enabled": true,
       "collidable": true
@@ -90,9 +114,9 @@
       "id": "boxing_ring",
       "modelPath": "/models/structures/boxing_ring_arena.glb",
       "position": {
-        "x": 50,
+        "x": 150,
         "y": 0,
-        "z": 50
+        "z": 150
       },
       "rotation": {
         "x": 0,
@@ -108,9 +132,9 @@
       "id": "vr_room",
       "modelPath": "/models/structures/environment_vr_room_baked.glb",
       "position": {
-        "x": 40,
+        "x": 140,
         "y": 0.01,
-        "z": 20
+        "z": 120
       },
       "rotation": {
         "x": 0,
@@ -131,12 +155,12 @@
       "modelPath": "/models/env/planets/moon-mr.glb",
       "positionOffset": {
         "x": 0,
-        "y": 200,
+        "y": 500,
         "z": 0
       },
-      "scale": 0.2,
+      "scale": 0.5,
       "promptRadius": 22,
-      "triggerRadius": 16,
+      "triggerRadius": 160,
       "portalDestination": {
         "world": "space",
         "spawnPoint": {
@@ -183,20 +207,17 @@
   ],
   "interactables": [
     {
-      "id": "billboard",
+      "id": "community_billboard",
+      "type": "billboard",
+      "label": "Community Billboard",
       "modelPath": "/models/env/billboard.glb",
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "rotation": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
+      "position": { "x": -8, "y": 0, "z": 4 },
+      "rotation": { "x": 0, "y": 1.2, "z": 0 },
       "scale": 1,
-      "label": "Billboard",
+      "screen": {
+        "meshNameIncludes": ["screen", "display", "panel"],
+        "defaultText": "Welcome to Doge.minna"
+      },
       "hoverable": true,
       "collisionEnabled": true,
       "enabled": true

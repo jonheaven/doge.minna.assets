@@ -29,6 +29,30 @@
     "triggerRadius": 9
   },
   "starsEnabled": true,
+  "structures": [
+    {
+      "id": "floating_base",
+      "modelPath": "/models/structures/base.glb",
+      "position": { "x": 0, "y": -8, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "scale": 8,
+      "label": "Floating Base",
+      "enabled": true,
+      "collidable": true
+    }
+  ],
+  "interactables": [
+    {
+      "id": "tesla_coil",
+      "label": "Tesla Coil",
+      "type": "pickup",
+      "enabled": true,
+      "modelPath": "/models/env/tesla_coil.glb",
+      "position": { "x": 0, "y": 0, "z": 0 },
+      "scale": 0.5,
+      "interactRadius": 4
+    }
+  ],
   "planets": [
     {
       "id": "earth",

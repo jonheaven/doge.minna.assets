@@ -1,0 +1,31 @@
+{
+  "world": "doghouse_1",
+  "spawnPoint": { "x": 0, "y": 0.5, "z": 5 },
+  "bounds": { "centerX": 0, "centerY": 0, "centerZ": 0, "interactionRadius": 8, "groundY": 0, "size": 80 },
+  "structures": [
+    {
+      "id": "dog_house_interior",
+      "label": "Doge House Interior",
+      "modelPath": "/models/env/structures/dog_house_interior.glb",
+      "position": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1,
+      "collidable": true
+    },
+    {
+      "id": "doghouse_exit",
+      "label": "Earth Hub",
+      "modelPath": "/models/env/portal_ring.glb",
+      "position": { "x": 0, "y": 0, "z": -5 },
+      "scale": 0.6,
+      "portal": {
+        "label": "Earth Hub",
+        "targetWorld": "earth",
+        "promptRadius": 3,
+        "triggerRadius": 1.4,
+        "activation": "interact",
+        "movementMode": "ground",
+        "spawnPoint": { "x": 10, "y": 0.5, "z": -4 }
+      }
+    }
+  ]
+}
