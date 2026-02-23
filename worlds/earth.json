@@ -31,6 +31,25 @@
   ],
   "structures": [
     {
+      "id": "X",
+      "modelPath": "/models/env/x_logo_nobg.glb",
+      "position": {
+        "x": 100,
+        "y": 100,
+        "z": 100
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 2,
+      "label": "X Logo",
+      "hoverable": true,
+      "collisionEnabled": true,
+      "enabled": true
+    },
+    {
       "id": "dog_house",
       "modelPath": "/models/structures/dog_house.glb",
       "position": {
