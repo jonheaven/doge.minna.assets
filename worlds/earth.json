@@ -416,9 +416,9 @@
     "dog_companion": {
       "enabled": true,
       "position": {
-        "x": 6,
-        "y": 0,
-        "z": 6
+        "x": -12,
+        "y": 1,
+        "z": -12
       },
       "rotation": {
         "x": 0,
