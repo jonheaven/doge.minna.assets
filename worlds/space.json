@@ -1,0 +1,223 @@
+{
+  "world": "space",
+  "spawnPoint": { "x": 10, "y": 0, "z": 0 },
+  "music": {
+    "track": "/music/space.mp3",
+    "volume": 1
+  },
+  "sfx": [
+    "/sfx/teleport.mp3"
+  ],
+  "items": [
+    {
+      "id": "broomstick1",
+      "itemType": "broom",
+      "itemId": "items/brooms/stylized_broomstick",
+      "label": "Stylized Broomstick",
+      "path": "/models/items/brooms/stylized_broomstick.glb",
+      "scale": 0.5,
+      "position": { "x": 25, "y": 5, "z": 20 },
+      "pickupRotation": [0, 0, 0],
+      "rideOffset": [0.02, 0, 0.1],
+      "rideRotation": [0, 3.14159265, 0],
+      "rideScale": 1,
+      "enabled": true
+    }
+  ],
+  "moonReturnPortal": {
+    "promptRadius": 14,
+    "triggerRadius": 9
+  },
+  "starsEnabled": true,
+  "structures": [
+    {
+      "id": "floating_base",
+      "modelPath": "/models/structures/base.glb",
+      "position": { "x": 0, "y": -8, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "scale": 8,
+      "label": "Floating Base",
+      "enabled": true,
+      "collidable": true
+    }
+  ],
+  "interactables": [
+    {
+      "id": "tesla_coil",
+      "label": "Tesla Coil",
+      "type": "pickup",
+      "enabled": true,
+      "modelPath": "/models/env/tesla_coil.glb",
+      "position": { "x": 0, "y": 0, "z": 0 },
+      "scale": 0.5,
+      "interactRadius": 4
+    }
+  ],
+  "planets": [
+    {
+      "id": "earth",
+      "label": "Earth",
+      "type": "portal",
+      "modelPath": "/models/env/planets/earth-mr.glb",
+      "position": { "x": -220, "y": 40, "z": -80 },
+      "scale": 0.45,
+      "promptRadius": 70,
+      "triggerRadius": 46,
+      "portalDestination": {
+        "world": "earth",
+        "spawnPoint": { "x": 0, "y": 0, "z": 0 },
+        "movementMode": "ground"
+      },
+      "enabled": true
+    },
+    {
+      "id": "moon",
+      "label": "Moon",
+      "type": "portal",
+      "modelPath": "/models/env/planets/moon-mr.glb",
+      "position": { "x": 420, "y": 80, "z": -60 },
+      "scale": 0.36,
+      "promptRadius": 60,
+      "triggerRadius": 38,
+      "portalDestination": {
+        "world": "moon",
+        "spawnPoint": { "x": 0, "y": 1, "z": 0 },
+        "movementMode": "ground"
+      },
+      "enabled": true
+    },
+    {
+      "id": "mars",
+      "label": "Mars",
+      "type": "portal",
+      "modelPath": "/models/env/planets/mars-mr.glb",
+      "position": { "x": -900, "y": 160, "z": 450 },
+      "scale": 0.42,
+      "promptRadius": 68,
+      "triggerRadius": 44,
+      "portalDestination": {
+        "world": "mars",
+        "spawnPoint": { "x": 0, "y": 1, "z": 0 },
+        "movementMode": "ground"
+      },
+      "enabled": true
+    }
+  ],
+  "asteroidScatter": {
+    "enabled": true,
+    "models": [
+      {
+        "id": "meteorite",
+        "modelPath": "/models/env/meteorite.glb",
+        "label": "Space Meteorite",
+        "scale": 1,
+        "health": 200,
+        "lootMultiplier": 0.7
+      },
+      {
+        "id": "asteroid_with_minerals",
+        "modelPath": "/models/env/asteroid_with_minerals.glb",
+        "label": "Mineral Asteroid",
+        "scale": 1,
+        "health": 140,
+        "lootMultiplier": 1.6
+      }
+    ],
+    "positions": [
+      { "x": 10,  "y": 0,  "z": -10 },
+      { "x": -15, "y": 0,  "z": 20  },
+      { "x": 30,  "y": 4,  "z": 8   },
+      { "x": -25, "y": -3, "z": -30 },
+      { "x": 50,  "y": 8,  "z": 15  },
+      { "x": -45, "y": 2,  "z": 35  }
+    ]
+  },
+  "spaceEnemyScatter": {
+    "enabled": true,
+    "models": [
+      {
+        "id": "space_drone",
+        "modelPath": "/models/env/space-drone.glb",
+        "label": "Rogue AI Drone",
+        "scale": 0.01,
+        "health": 80,
+        "damage": 15
+      },
+      {
+        "id": "alien_probe",
+        "modelPath": "/models/env/alien-probe.glb",
+        "label": "Alien Probe",
+        "scale": 0.01,
+        "health": 130,
+        "damage": 30
+      }
+    ],
+    "positions": [
+      { "x": 25,  "y": 0,  "z": 0   },
+      { "x": -30, "y": 0,  "z": -15 },
+      { "x": 18,  "y": 6,  "z": 28  },
+      { "x": -12, "y": -4, "z": 35  },
+      { "x": 45,  "y": 3,  "z": -20 }
+    ]
+  },
+  "encounters": {
+    "hitRange": 65,
+    "collectRange": 10,
+    "asteroidRespawnMs": 60000,
+    "droneRespawnMs": 75000,
+    "lootTtlMs": 360000,
+    "asteroids": [
+      { "id": "ast_1", "position": { "x": 10,  "y": 0,  "z": -10 }, "health": 200 },
+      { "id": "ast_2", "position": { "x": -15, "y": 0,  "z": 20  }, "health": 140 },
+      { "id": "ast_3", "position": { "x": 30,  "y": 4,  "z": 8   }, "health": 200 },
+      { "id": "ast_4", "position": { "x": -25, "y": -3, "z": -30 }, "health": 140 },
+      { "id": "ast_5", "position": { "x": 50,  "y": 8,  "z": 15  }, "health": 200 },
+      { "id": "ast_6", "position": { "x": -45, "y": 2,  "z": 35  }, "health": 140 }
+    ],
+    "drones": [
+      { "id": "drn_1", "position": { "x": 25,  "y": 0,  "z": 0   }, "health": 80  },
+      { "id": "drn_2", "position": { "x": -30, "y": 0,  "z": -15 }, "health": 100 },
+      { "id": "drn_3", "position": { "x": 18,  "y": 6,  "z": 28  }, "health": 80  },
+      { "id": "drn_4", "position": { "x": -12, "y": -4, "z": 35  }, "health": 130 },
+      { "id": "drn_5", "position": { "x": 45,  "y": 3,  "z": -20 }, "health": 80  }
+    ]
+  },
+  "economy": {
+    "authoritativeServerSync": true,
+    "lootCurrency": "USD",
+    "notes": "Space mining loot is in-world value only and not redeemable cash."
+  },
+  "droneScatter": {
+    "enabled": true,
+    "modelPath": "/models/env/space-drone.glb",
+    "scale": 1.5,
+    "count": 5,
+    "positions": [
+      {
+        "x": 25,
+        "y": 0,
+        "z": 0
+      },
+      {
+        "x": -30,
+        "y": 0,
+        "z": -15
+      },
+      {
+        "x": 18,
+        "y": 6,
+        "z": 28
+      },
+      {
+        "x": -12,
+        "y": -4,
+        "z": 35
+      },
+      {
+        "x": 45,
+        "y": 3,
+        "z": -20
+      }
+    ]
+  }
+}

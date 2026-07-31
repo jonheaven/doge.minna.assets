@@ -1,0 +1,231 @@
+{
+  "players": [
+    {
+      "id": "doge",
+      "name": "Doge",
+      "description": "The legendary Shiba that started it all",
+      "filename": "doge.glb",
+      "path": "/models/players/doge.glb",
+      "orientationOffset": 0,
+      "scaleMultiplier": 0.75,
+      "broomOrientationCorrection": 0,
+      "abilities": [
+        "Punch attack (O key)"
+      ],
+      "hatAttachment": {
+        "headOffset": [0.05, -0.6, 0.2],
+        "headRotation": [0, 0, 0],
+        "headScale": 0.25,
+        "rootFallbackOffset": [0, 0.85, 0]
+      },
+      "preview": {
+        "position": [-0.19, 0.06, 0.11],
+        "target": [-0.04, 0.06, -0.03],
+        "fov": 50
+      }
+    },
+    {
+      "id": "mrna-zombie",
+      "name": "mRNA Zombie",
+      "description": "Undead creature from the depths",
+      "filename": "mrna-zombie.glb",
+      "path": "/models/players/mrna-zombie.glb",
+      "orientationOffset": 0,
+      "scaleMultiplier": 1.0,
+      "broomOrientationCorrection": 0,
+      "hatAttachment": {
+        "headOffset": [0, 0.1, 0],
+        "headRotation": [0, 0, 0],
+        "headScale": 0.35,
+        "rootFallbackOffset": [0, 1.1, 0]
+      },
+      "preview": {
+        "position": [0.06, -0.11, 0.11],
+        "target": [-0.06, -0.07, -0.12],
+        "fov": 50,
+        "targetSize": 0.25
+      }
+    },
+    {
+      "id": "peepo",
+      "name": "Peepo",
+      "description": "Smol wholesome frog",
+      "filename": "peepo.glb",
+      "path": "/models/players/peepo.glb",
+      "orientationOffset": 0,
+      "scaleMultiplier": 1.0,
+      "broomOrientationCorrection": 0,
+      "abilities": [
+        "Jumps 50% higher",
+        "Floatier falls (slower gravity)"
+      ],
+      "hatAttachment": {
+        "headOffset": [0, 0.1, 0],
+        "headRotation": [0, 0, 0],
+        "headScale": 0.3,
+        "rootFallbackOffset": [0, 0.9, 0]
+      },
+      "preview": {
+        "position": [0.12, 0.04, 0.28],
+        "target": [-0.04, 0.00, -0.11],
+        "fov": 50
+      }
+    },
+    {
+      "id": "shiba_inu",
+      "name": "Shiba Inu",
+      "description": "Much wow, such doge",
+      "filename": "shiba_inu.glb",
+      "path": "/models/players/shiba_inu.glb",
+      "orientationOffset": 0,
+      "scaleMultiplier": 1.0,
+      "broomOrientationCorrection": 0,
+      "abilities": [
+        "Slower walk speed (animation sync)"
+      ],
+      "hatAttachment": {
+        "headOffset": [0, 0.08, 0],
+        "headRotation": [0, 0, 0],
+        "headScale": 0.3,
+        "rootFallbackOffset": [0, 0.85, 0]
+      },
+      "preview": {
+        "position": [0.23, 0.04, 0.22],
+        "target": [-0.08, -0.01, -0.06],
+        "fov": 50
+      }
+    },
+    {
+      "id": "shiba_inu-2",
+      "name": "Shiba Inu 2",
+      "description": "Expressive shiba with expanded emotes and classic locomotion",
+      "filename": "shiba_inu-2.glb",
+      "path": "/models/players/shiba_inu-2.glb",
+      "orientationOffset": 0,
+      "scaleMultiplier": 1.0,
+      "broomOrientationCorrection": 0,
+      "abilities": [
+        "Expanded emote animation set",
+        "Classic walk/run/jump locomotion"
+      ],
+      "hatAttachment": {
+        "headOffset": [0, 0.08, 0],
+        "headRotation": [0, 0, 0],
+        "headScale": 0.3,
+        "rootFallbackOffset": [0, 0.85, 0]
+      },
+      "preview": {
+        "position": [0.18, 0.05, 0.23],
+        "target": [-0.07, -0.01, -0.05],
+        "fov": 50
+      }
+    },
+    {
+      "id": "animated_pitbull_dog",
+      "name": "Animated Pitbull",
+      "description": "High-fidelity canine with a huge animation set",
+      "filename": "animated_pitbull_dog.glb",
+      "path": "/models/players/animated_pitbull_dog.glb",
+      "orientationOffset": 0,
+      "scaleMultiplier": 1.0,
+      "broomOrientationCorrection": 0,
+      "abilities": [
+        "Expanded animation library"
+      ],
+      "hatAttachment": {
+        "headOffset": [0, 0.08, 0],
+        "headRotation": [0, 0, 0],
+        "headScale": 0.3,
+        "rootFallbackOffset": [0, 0.9, 0]
+      },
+      "preview": {
+        "position": [0.18, 0.07, 0.26],
+        "target": [-0.02, 0.01, -0.02],
+        "fov": 50,
+        "targetSize": 0.24
+      }
+    },
+    {
+      "id": "wojak",
+      "name": "Wojak",
+      "description": "The original feels guy",
+      "orientationOffset": 0,
+      "scaleMultiplier": 2.4,
+      "broomOrientationCorrection": 0,
+      "abilities": [
+        "Throw animation (T key)"
+      ],
+      "hatAttachment": {
+        "headOffset": [0, 0.15, 0],
+        "headRotation": [0, 0, 0],
+        "headScale": 0.4,
+        "rootFallbackOffset": [0, 1.5, 0]
+      },
+      "animations": [
+        {
+          "name": "wojak-idle",
+          "filename": "wojak/wojak-idle.glb",
+          "path": "/models/players/wojak/wojak-idle.glb"
+        },
+        {
+          "name": "wojak-jump",
+          "filename": "wojak/wojak-jump.glb",
+          "path": "/models/players/wojak/wojak-jump.glb"
+        },
+        {
+          "name": "wojak-running_forward",
+          "filename": "wojak/wojak-running_forward.glb",
+          "path": "/models/players/wojak/wojak-running_forward.glb"
+        },
+        {
+          "name": "wojak-left_strafe",
+          "filename": "wojak/wojak-left_strafe.glb",
+          "path": "/models/players/wojak/wojak-left_strafe.glb"
+        },
+        {
+          "name": "wojak-right_strafe",
+          "filename": "wojak/wojak-right_strafe.glb",
+          "path": "/models/players/wojak/wojak-right_strafe.glb"
+        },
+        {
+          "name": "wojak-running_backward",
+          "filename": "wojak/wojak-running_backward.glb",
+          "path": "/models/players/wojak/wojak-running_backward.glb"
+        },
+        {
+          "name": "wojak-throw",
+          "filename": "wojak/wojak-throw.glb",
+          "path": "/models/players/wojak/wojak-throw.glb"
+        }
+      ],
+      "preview": {
+        "position": [-0.04, 0.10, 0.18],
+        "target": [0.02, -0.01, -0.05],
+        "fov": 50
+      }
+    },
+    {
+      "id": "wolf",
+      "name": "Wolf",
+      "description": "Majestic lupine hunter",
+      "filename": "wolf.glb",
+      "path": "/models/players/wolf.glb",
+      "orientationOffset": 1.5708,
+      "scaleMultiplier": 1.0,
+      "broomOrientationCorrection": -1.5708,
+      "hatAttachment": {
+        "headOffset": [0, 0.08, 0],
+        "headRotation": [-1.5708, 0, 0],
+        "headScale": 0.35,
+        "rootFallbackOffset": [0, 0.9, 0]
+      },
+      "preview": {
+        "position": [-0.21, 0.07, 0.19],
+        "target": [-0.08, 0.02, 0.04],
+        "fov": 50,
+        "targetSize": 0.25,
+        "hideMeshes": ["ground", "plane", "floor"]
+      }
+    }
+  ]
+}

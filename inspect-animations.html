@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GLB Animation Inspector</title>
+  <style>
+    body { 
+      font-family: monospace; 
+      padding: 20px; 
+      background: #1e1e1e; 
+      color: #d4d4d4;
+    }
+    #output { 
+      white-space: pre-wrap; 
+      background: #252526; 
+      padding: 20px; 
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>🔍 Shiba Inu Model - Animation Inspector</h2>
+  <div id="output">Loading model...</div>
+
+  <script type="module">
+    import * as THREE from 'three';
+    import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+    const output = document.getElementById('output');
+    const loader = new GLTFLoader();
+
+    loader.load(
+      '/assets/models/animated_dog_shiba_inu.glb',
+      (gltf) => {
+        let info = '✅ Model loaded successfully\n\n';
+        info += `📦 Total animations: ${gltf.animations.length}\n\n`;
+
+        if (gltf.animations.length > 0) {
+          info += '📋 Animation List:\n';
+          info += '─'.repeat(50) + '\n\n';
+          
+          gltf.animations.forEach((clip, index) => {
+            info += `[${index}] ${clip.name || 'Unnamed Animation'}\n`;
+            info += `    ⏱️  Duration: ${clip.duration.toFixed(2)} seconds\n`;
+            info += `    📊 Tracks: ${clip.tracks.length}\n`;
+            info += `    🎯 Sample track names:\n`;
+            
+            clip.tracks.slice(0, 3).forEach(track => {
+              const parts = track.name.split('.');
+              info += `        - ${parts[0]}.${parts[1]}\n`;
+            });
+            
+            info += '\n';
+          });
+        } else {
+          info += '⚠️  No animations found in this model\n';
+        }
+
+        output.textContent = info;
+      },
+      (progress) => {
+        const percent = (progress.loaded / progress.total * 100).toFixed(1);
+        output.textContent = `⏳ Loading... ${percent}%`;
+      },
+      (error) => {
+        output.textContent = `❌ Error loading model:\n${error}`;
+      }
+    );
+  </script>
+</body>
+</html>

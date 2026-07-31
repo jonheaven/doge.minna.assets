@@ -231,10 +231,12 @@ function generateRootIndex() {
     <div class="quick-links">
         <a href="#audit">📊 Assets Audit</a>
         <a href="#files">📋 Complete File List</a>
-        <a href="/assets/">📁 Asset Directory</a>
-        <a href="/assets/models/">🎨 Models</a>
-        <a href="/assets/music/">🎵 Music</a>
-        <a href="/assets/sfx/">🔊 Sound Effects</a>
+        <a href="/models/">🎨 Models</a>
+        <a href="/music/">🎵 Music</a>
+        <a href="/sfx/">🔊 Sound Effects</a>
+        <a href="/textures/">🧵 Textures</a>
+        <a href="/worlds/">🌍 Worlds</a>
+        <a href="/manifests/">📦 Manifests</a>
     </div>
     
     <div id="audit" class="section-separator">

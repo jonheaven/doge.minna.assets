@@ -1,0 +1,205 @@
+{
+  "public/models/players/doge.glb": {
+    "animations": ["Animation"],
+    "emotes": []
+  },
+  "public/models/players/mrna-zombie.glb": {
+    "animations": ["walk", "idle", "attack", "hit", "Death"],
+    "emotes": []
+  },
+  "public/models/players/mars-zombie.glb": {
+    "animations": ["Idle", "Walk", "Armature|Death"],
+    "emotes": []
+  },
+  "public/models/players/shiba_inu.glb": {
+    "animations": [
+      "Dog|Idle",
+      "Dog|Jump",
+      "Dog|Run",
+      "Dog|SitDown",
+      "Dog|Walk",
+      "Dog|Wave",
+      "Dog|Bark",
+      "Dog|Lay",
+      "Dog|Sniff",
+      "Dog|Shake",
+      "Dog|Dig",
+      "Dog|PlayBow",
+      "Dog|Pee",
+      "Dog|Poop"
+    ],
+    "emotes": ["Wave", "Bark", "Sit", "Lay", "Sniff", "Shake", "Dig", "PlayBow", "Pee", "Poop"]
+  },
+  "public/models/players/shiba_inu-2.glb": {
+    "animations": [
+      "standing",
+      "sitting",
+      "shake",
+      "rollover",
+      "play_dead",
+      "Dog|Idle",
+      "Dog|Jump",
+      "Dog|Run",
+      "Dog|SitDown",
+      "Dog|Walk",
+      "Dog|Wave",
+      "Dog|Bark",
+      "Dog|Lay",
+      "Dog|Sniff",
+      "Dog|Shake",
+      "Dog|Dig",
+      "Dog|PlayBow",
+      "Dog|Pee",
+      "Dog|Poop"
+    ],
+    "emotes": ["Wave", "Bark", "Sit", "Lay", "Sniff", "Shake", "Dig", "PlayBow", "Pee", "Poop"]
+  },
+  "public/models/players/animated_pitbull_dog.glb": {
+    "animations": [
+      "idle 50",
+      "walk_fwd 29",
+      "run_fwd 13",
+      "jump 22",
+      "idle_sit_pose 2",
+      "idle_lay_pose 2",
+      "idle_sniff_pose",
+      "idle_shake_1. 137",
+      "idle_one_off_dig 184",
+      "idle_bark_04_warning 47",
+      "playbow 1",
+      "pee 43",
+      "poop 75",
+      "wave 18"
+    ],
+    "emotes": ["Wave", "Bark", "Sit", "Lay", "Sniff", "Shake", "Dig", "PlayBow", "Pee", "Poop"]
+  },
+  "public/models/players/wojak/wojak-idle.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "public/models/players/wojak/wojak-jump.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "public/models/players/wojak/wojak-left_strafe.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "public/models/players/wojak/wojak-right_strafe.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "public/models/players/wojak/wojak-running.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "public/models/players/wojak/wojak-running_backward.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "public/models/players/wojak/wojak-throw.glb": {
+    "animations": ["mixamo.com"],
+    "emotes": []
+  },
+  "public/models/players/wolf.glb": {
+    "animations": ["01_Run", "02_walk", "03_creep", "04_Idle", "05_site"],
+    "emotes": ["Wave", "Bark", "Sit", "Lay", "Sniff", "Shake", "Dig", "PlayBow", "Pee", "Poop"]
+  },
+  "public/models/players/zombie_dog.glb": {
+    "animations": ["GltfAnimation 0"],
+    "emotes": []
+  },
+  "public/models/env/alien-probe.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/env/ancient_tree.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/env/asteroid_with_minerals.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/env/bonsai_tree.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/env/campfire.glb": {
+    "animations": ["Animation"],
+    "emotes": []
+  },
+  "public/models/env/dog_house.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/env/dog_house2.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/env/earth.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/env/fire.glb": {
+    "animations": ["Take 001"],
+    "emotes": []
+  },
+  "public/models/env/japanese_cherry_tree_low-poly.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/env/koenigsegg.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/env/mars.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/env/meteorite.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/env/moon.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/env/old_tree.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/env/ore_asteroids.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/env/space-drone.glb": {
+    "animations": ["Armature|Attack ", "Armature|DodgeLeft", "Armature|DodgeRight", "Armature|Fire", "Armature|idle"],
+    "emotes": []
+  },
+  "public/models/env/tesla_coil.glb": {
+    "animations": ["Scene"],
+    "emotes": []
+  },
+  "public/models/items/brooms/nimbus_2000.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/items/brooms/nimbus_2002.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/items/brooms/stylized_broomstick.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/items/brooms/wizards_broom.glb": {
+    "animations": [],
+    "emotes": []
+  },
+  "public/models/items/wizard_hat.glb": {
+    "animations": [],
+    "emotes": []
+  }
+}
+
