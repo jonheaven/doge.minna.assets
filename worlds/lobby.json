@@ -1,0 +1,38 @@
+{
+  "world": "lobby",
+  "name": "Abandoned Warehouse",
+  "spawnPoint": { "x": 0, "y": 0.2, "z": 4 },
+  "spawnRadius": 0,
+  "bounds": {
+    "size": 48,
+    "centerX": 0,
+    "centerY": 0,
+    "centerZ": 0,
+    "groundY": 0,
+    "interactionRadius": 16
+  },
+  "backgroundColor": "#0b0d12",
+  "music": {
+    "track": "/music/earth.mp3",
+    "volume": 0.22
+  },
+  "structures": [
+    {
+      "id": "warehouse",
+      "modelPath": "/models/structures/warehouse.glb",
+      "position": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "scale": 2,
+      "label": "Abandoned Warehouse",
+      "hoverable": false,
+      "enabled": true
+    }
+  ],
+  "portal": {
+    "position": { "x": 0, "y": 1.2, "z": 8 },
+    "radius": 2.2,
+    "targetWorld": "earth",
+    "spawnPoint": { "x": 8, "y": 0.2, "z": 10 },
+    "label": "Press E to enter Earth"
+  }
+}
