@@ -6,7 +6,7 @@
     {
       "id": "dog_house_interior",
       "label": "Doge House Interior",
-      "modelPath": "/models/env/structures/dog_house_interior.glb",
+      "modelPath": "/models/structures/dog_house2.glb",
       "position": { "x": 0, "y": 0, "z": 0 },
       "scale": 1,
       "collidable": true
@@ -14,7 +14,7 @@
     {
       "id": "doghouse_exit",
       "label": "Earth Hub",
-      "modelPath": "/models/env/portal_ring.glb",
+      "modelPath": "/models/env/portal.glb",
       "position": { "x": 0, "y": 0, "z": -5 },
       "scale": 0.6,
       "portal": {
@@ -24,7 +24,7 @@
         "triggerRadius": 1.4,
         "activation": "interact",
         "movementMode": "ground",
-        "spawnPoint": { "x": 10, "y": 0.5, "z": -4 }
+        "spawnPoint": { "x": 14, "y": 0.5, "z": -6 }
       }
     }
   ]
