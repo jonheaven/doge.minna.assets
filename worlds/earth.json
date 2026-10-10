@@ -344,6 +344,7 @@
         0
       ],
       "rideScale": 1,
+      "shopOnly": true,
       "enabled": true
     },
     {
