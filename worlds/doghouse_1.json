@@ -7,7 +7,7 @@
       "id": "dog_house_interior",
       "label": "Doge House Interior",
       "modelPath": "/models/structures/dog_house2.glb",
-      "position": { "x": 0, "y": 20, "z": 0 },
+      "position": { "x": 0, "y": 0, "z": 0 },
       "scale": 0.2,
       "collidable": false
     },
