@@ -1,15 +1,15 @@
 {
   "world": "doghouse_1",
-  "spawnPoint": { "x": 0, "y": 0.5, "z": 5 },
-  "bounds": { "centerX": 0, "centerY": 0, "centerZ": 0, "interactionRadius": 8, "groundY": 0, "size": 80 },
+  "spawnPoint": { "x": 0, "y": 0.2, "z": 2 },
+  "bounds": { "centerX": 0, "centerY": 0, "centerZ": 0, "interactionRadius": 12, "groundY": 0, "size": 48 },
   "structures": [
     {
       "id": "dog_house_interior",
       "label": "Doge House Interior",
       "modelPath": "/models/structures/dog_house2.glb",
-      "position": { "x": 0, "y": 0, "z": 0 },
-      "scale": 1,
-      "collidable": true
+      "position": { "x": 0, "y": 20, "z": 0 },
+      "scale": 0.2,
+      "collidable": false
     },
     {
       "id": "doghouse_exit",

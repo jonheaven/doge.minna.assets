@@ -454,7 +454,7 @@
       "scale": 1
     },
     "dog_companion": {
-      "enabled": true,
+      "enabled": false,
       "position": {
         "x": -12,
         "y": 1,
