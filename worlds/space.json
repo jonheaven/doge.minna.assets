@@ -139,7 +139,7 @@
         "id": "space_drone",
         "modelPath": "/models/env/space-drone.glb",
         "label": "Rogue AI Drone",
-        "scale": 0.01,
+        "scale": 0.02,
         "health": 80,
         "damage": 15
       },
@@ -147,7 +147,7 @@
         "id": "alien_probe",
         "modelPath": "/models/env/alien-probe.glb",
         "label": "Alien Probe",
-        "scale": 0.01,
+        "scale": 0.1,
         "health": 130,
         "damage": 30
       }
