@@ -1,35 +1,45 @@
 {
   "world": "lobby",
-  "name": "Abandoned Warehouse",
-  "spawnPoint": { "x": 0, "y": 0.2, "z": 4 },
+  "name": "Forest Mountains",
+  "spawnPoint": { "x": -34.4, "y": 0.2, "z": 8 },
   "spawnRadius": 0,
   "bounds": {
-    "size": 48,
+    "size": 120,
     "centerX": 0,
     "centerY": 0,
-    "centerZ": 0,
+    "centerZ": -2,
     "groundY": 0,
-    "interactionRadius": 16
+    "interactionRadius": 80
   },
-  "backgroundColor": "#0b0d12",
+  "backgroundColor": "#9ec3de",
   "music": {
     "track": "/music/earth.mp3",
     "volume": 0.22
   },
   "structures": [
     {
-      "id": "warehouse",
-      "modelPath": "/models/structures/warehouse.glb",
+      "id": "landscape",
+      "modelPath": "/models/env/landscape_forest_mountains.glb",
       "position": { "x": 0, "y": 0, "z": 0 },
       "rotation": { "x": 0, "y": 0, "z": 0 },
+      "scale": 1,
+      "label": "Forest Mountains",
+      "hoverable": false,
+      "enabled": true
+    },
+    {
+      "id": "warehouse",
+      "modelPath": "/models/structures/warehouse.glb",
+      "position": { "x": -44.1, "y": 0, "z": 3.8 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
       "scale": 2,
-      "label": "Abandoned Warehouse",
+      "label": "Abandoned VR Gallery",
       "hoverable": false,
       "enabled": true
     }
   ],
   "portal": {
-    "position": { "x": 0, "y": 1.2, "z": 8 },
+    "position": { "x": -34.4, "y": 1.2, "z": 12 },
     "radius": 2.2,
     "targetWorld": "earth",
     "spawnPoint": { "x": 8, "y": 0.2, "z": 10 },
