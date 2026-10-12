@@ -54,7 +54,7 @@
       "modelPath": "/models/env/tesla_coil.glb",
       "position": { "x": 0, "y": 0, "z": 0 },
       "scale": 0.5,
-      "interactRadius": 4
+      "interactRadius": 8
     }
   ],
   "planets": [
