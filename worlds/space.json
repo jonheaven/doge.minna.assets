@@ -151,10 +151,26 @@
         "id": "alien_probe",
         "modelPath": "/models/env/alien-probe.glb",
         "label": "Alien Probe",
-        "scale": 0.1,
+        "scale": 0.4,
         "health": 130,
         "damage": 30
       }
+    ],
+    "spawns": [
+      { "id": "drn_1", "model": "space_drone", "position": { "x": 200, "y": 10, "z": 5 } },
+      { "id": "drn_2", "model": "space_drone", "position": { "x": 255, "y": 6, "z": -28 } },
+      { "id": "drn_3", "model": "space_drone", "position": { "x": 185, "y": -2, "z": 40 } },
+      { "id": "drn_4", "model": "space_drone", "position": { "x": 300, "y": 16, "z": 22 } },
+      { "id": "drn_5", "model": "space_drone", "position": { "x": 225, "y": 14, "z": -62 } },
+      { "id": "prb_1", "model": "alien_probe", "position": { "x": 150, "y": 36, "z": 110 } },
+      { "id": "prb_2", "model": "alien_probe", "position": { "x": 380, "y": 22, "z": -120 } },
+      { "id": "prb_3", "model": "alien_probe", "position": { "x": -130, "y": 44, "z": 90 } },
+      { "id": "prb_4", "model": "alien_probe", "position": { "x": -40, "y": 28, "z": -170 } },
+      { "id": "prb_5", "model": "alien_probe", "position": { "x": 540, "y": 50, "z": 40 } },
+      { "id": "prb_6", "model": "alien_probe", "position": { "x": 80, "y": 58, "z": 220 } },
+      { "id": "prb_7", "model": "alien_probe", "position": { "x": 270, "y": -6, "z": 160 } },
+      { "id": "prb_8", "model": "alien_probe", "position": { "x": -150, "y": 36, "z": -150 } },
+      { "id": "prb_9", "model": "alien_probe", "position": { "x": -420, "y": 72, "z": 200 } }
     ],
     "positions": [
       { "x": 200, "y": 10, "z": 5   },
@@ -179,11 +195,20 @@
       { "id": "ast_6", "position": { "x": 230, "y": -12, "z": -18 }, "health": 140 }
     ],
     "drones": [
-      { "id": "drn_1", "position": { "x": 200, "y": 10, "z": 5   }, "health": 80  },
-      { "id": "drn_2", "position": { "x": 255, "y": 6,  "z": -28 }, "health": 100 },
-      { "id": "drn_3", "position": { "x": 185, "y": -2, "z": 40  }, "health": 80  },
-      { "id": "drn_4", "position": { "x": 300, "y": 16, "z": 22  }, "health": 130 },
-      { "id": "drn_5", "position": { "x": 225, "y": 14, "z": -62 }, "health": 80  }
+      { "id": "drn_1", "model": "space_drone", "position": { "x": 200, "y": 10, "z": 5 }, "health": 80 },
+      { "id": "drn_2", "model": "space_drone", "position": { "x": 255, "y": 6, "z": -28 }, "health": 80 },
+      { "id": "drn_3", "model": "space_drone", "position": { "x": 185, "y": -2, "z": 40 }, "health": 80 },
+      { "id": "drn_4", "model": "space_drone", "position": { "x": 300, "y": 16, "z": 22 }, "health": 80 },
+      { "id": "drn_5", "model": "space_drone", "position": { "x": 225, "y": 14, "z": -62 }, "health": 80 },
+      { "id": "prb_1", "model": "alien_probe", "position": { "x": 150, "y": 36, "z": 110 }, "health": 130 },
+      { "id": "prb_2", "model": "alien_probe", "position": { "x": 380, "y": 22, "z": -120 }, "health": 130 },
+      { "id": "prb_3", "model": "alien_probe", "position": { "x": -130, "y": 44, "z": 90 }, "health": 130 },
+      { "id": "prb_4", "model": "alien_probe", "position": { "x": -40, "y": 28, "z": -170 }, "health": 130 },
+      { "id": "prb_5", "model": "alien_probe", "position": { "x": 540, "y": 50, "z": 40 }, "health": 130 },
+      { "id": "prb_6", "model": "alien_probe", "position": { "x": 80, "y": 58, "z": 220 }, "health": 130 },
+      { "id": "prb_7", "model": "alien_probe", "position": { "x": 270, "y": -6, "z": 160 }, "health": 130 },
+      { "id": "prb_8", "model": "alien_probe", "position": { "x": -150, "y": 36, "z": -150 }, "health": 130 },
+      { "id": "prb_9", "model": "alien_probe", "position": { "x": -420, "y": 72, "z": 200 }, "health": 130 }
     ]
   },
   "economy": {
