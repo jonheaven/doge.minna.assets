@@ -1,0 +1,30 @@
+{
+  "world": "roadster",
+  "ground": {
+    "size": 120,
+    "y": 0
+  },
+  "spawnPoint": { "x": -16, "y": 0.2, "z": -20 },
+  "spawnRadius": 1.5,
+  "bounds": {
+    "size": 160,
+    "centerX": 0,
+    "centerY": 0,
+    "centerZ": 20,
+    "groundY": 0
+  },
+  "backgroundColor": "#05060c",
+  "vehicles": [
+    {
+      "id": "tesla_roadster",
+      "label": "Roadster",
+      "type": "vehicle",
+      "enabled": true,
+      "modelPath": "/models/env/tesla_roadster.glb",
+      "position": { "x": -16, "y": 0, "z": -8 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "scale": 0.55,
+      "interactRadius": 2.6
+    }
+  ]
+}

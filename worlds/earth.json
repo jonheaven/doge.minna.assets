@@ -56,6 +56,25 @@
       }
     },
     {
+      "id": "roadster_portal",
+      "modelPath": "/models/env/portal.glb",
+      "position": { "x": 30, "y": 0, "z": 6 },
+      "rotation": { "x": 0, "y": 0, "z": 0 },
+      "scale": 0.5,
+      "label": "Roadster Launch",
+      "hoverable": true,
+      "enabled": true,
+      "portal": {
+        "targetWorld": "roadster",
+        "spawnPoint": { "x": -16, "y": 0.2, "z": -20 },
+        "label": "Roadster Launch",
+        "promptRadius": 2.5,
+        "triggerRadius": 1.2,
+        "activation": "interact",
+        "movementMode": "ground"
+      }
+    },
+    {
       "id": "tower",
       "modelPath": "/models/env/millennium_tower_roof.glb",
       "position": {
