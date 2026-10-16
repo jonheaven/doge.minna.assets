@@ -14,6 +14,11 @@
     "groundY": 0
   },
   "backgroundColor": "#05060c",
+  "preload": [
+    "/models/env/tesla_roadster.glb",
+    "/models/env/cybertruck.glb",
+    "/models/players/shiba_inu.glb"
+  ],
   "vehicles": [
     {
       "id": "tesla_roadster",
